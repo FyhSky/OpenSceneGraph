@@ -18,7 +18,7 @@
 ASIO_INCLUDE_DIR:PATH=ASIO_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
-AV_FOUNDATION_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AVFoundation.framework
+AV_FOUNDATION_LIBRARY:FILEPATH=/System/Library/Frameworks/AVFoundation.framework
 
 //Set to ON to activate reporting of OpenSceneGraph builds here
 // http://cdash.openscenegraph.org/index.php?project=OpenSceneGraph
@@ -29,13 +29,13 @@ BUILD_DASHBOARD_REPORTS:BOOL=OFF
 BUILD_DOCUMENTATION:BOOL=OFF
 
 //Enable to build OSG Applications (e.g. osgviewer)
-BUILD_OSG_APPLICATIONS:BOOL=ON
+BUILD_OSG_APPLICATIONS:BOOL=OFF
 
 //Build deprecated .osg serializers
 BUILD_OSG_DEPRECATED_SERIALIZERS:BOOL=ON
 
 //Enable to build OSG Examples
-BUILD_OSG_EXAMPLES:BOOL=OFF
+BUILD_OSG_EXAMPLES:BOOL=ON
 
 //Set to ON to generate CPack configuration files and packaging
 // targets
@@ -52,9 +52,6 @@ BUILD_OSG_PLUGINS:BOOL=ON
 // to 1.
 BUILD_OSG_PLUGINS_BY_DEFAULT:BOOL=ON
 
-//Path to a library.
-CARBON_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Carbon.framework
-
 //Path to a program.
 CMAKE_AR:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar
 
@@ -68,7 +65,7 @@ CMAKE_BUILD_TYPE:STRING=Release
 CMAKE_CONFIGURATION_TYPES:STRING=Debug;Release;MinSizeRel;RelWithDebInfo
 
 //Flags used by the compiler during all build types.
-CMAKE_CXX_FLAGS:STRING= -std=c++11 -stdlib=libc++  -Wno-conversion -fvisibility-inlines-hidden
+CMAKE_CXX_FLAGS:STRING=    -Wno-conversion -fvisibility-inlines-hidden    -Wno-conversion -pipe -no-cpp-precomp    -Wno-conversion -pipe -no-cpp-precomp    -Wno-conversion -pipe -no-cpp-precomp    -Wno-conversion -pipe -no-cpp-precomp    -Wno-conversion -pipe -no-cpp-precomp    -Wno-conversion -pipe -no-cpp-precomp    -Wno-conversion -pipe -no-cpp-precomp    -Wno-conversion -pipe -no-cpp-precomp    -Wno-conversion -pipe -no-cpp-precomp    -Wno-conversion -pipe -no-cpp-precomp    -Wno-conversion -pipe -no-cpp-precomp -std=c++11 -stdlib=libc++  -Wno-conversion -pipe -no-cpp-precomp
 
 //Flags used by the compiler during debug builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -161,15 +158,14 @@ CMAKE_OBJCOPY:FILEPATH=CMAKE_OBJCOPY-NOTFOUND
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump
 
-//Build architectures for OSX
-CMAKE_OSX_ARCHITECTURES:STRING=x86_64
+//Build architectures for iOS
+CMAKE_OSX_ARCHITECTURES:STRING=armv7;armv7s;arm64
 
 //Target OSX version
-CMAKE_OSX_DEPLOYMENT_TARGET:STRING=10.8
+CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 
-//The product will be built against the headers and libraries located
-// inside the indicated SDK.
-CMAKE_OSX_SYSROOT:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk
+//System root for iOS
+CMAKE_OSX_SYSROOT:STRING=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk
 
 //(EXPERIMENTAL) You may add additional search paths here. Use
 // ; to separate multiple paths.
@@ -204,10 +200,10 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //If set, runtime paths are not added when installing shared libraries,
 // but are added when building.
-CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
+CMAKE_SKIP_INSTALL_RPATH:BOOL=OFF
 
 //If set, runtime paths are not added when using shared libraries.
-CMAKE_SKIP_RPATH:BOOL=NO
+CMAKE_SKIP_RPATH:BOOL=OFF
 
 //Flags used by the linker during the creation of static libraries.
 CMAKE_STATIC_LINKER_FLAGS:STRING=
@@ -231,10 +227,7 @@ CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/Xcode
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
-CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
-
-//Path to a library.
-COCOA_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework
+CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
 
 //Path to a library.
 COLLADA_BOOST_FILESYSTEM_LIBRARY:FILEPATH=COLLADA_BOOST_FILESYSTEM_LIBRARY-NOTFOUND
@@ -291,25 +284,25 @@ COLLADA_ZLIB_LIBRARY:FILEPATH=/usr/lib/libz.dylib
 COLLADA_ZLIB_LIBRARY_DEBUG:FILEPATH=/usr/lib/libz.dylib
 
 //Path to a file.
-COREMEDIA_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreMedia.framework
+COREMEDIA_INCLUDE_DIR:PATH=COREMEDIA_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
-COREMEDIA_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreMedia.framework
+COREMEDIA_LIBRARY:FILEPATH=/System/Library/Frameworks/CoreMedia.framework
 
 //Path to a file.
-COREVIDEO_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreVideo.framework
+COREVIDEO_INCLUDE_DIR:PATH=COREVIDEO_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
-COREVIDEO_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreVideo.framework
+COREVIDEO_LIBRARY:FILEPATH=/System/Library/Frameworks/CoreVideo.framework
 
 //Path to a file.
-CURL_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include
+CURL_INCLUDE_DIR:PATH=/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/curl-ios-device/include
 
 //on if curl is a static lib 
 CURL_IS_STATIC:BOOL=ON
 
 //Path to a library.
-CURL_LIBRARY:FILEPATH=/usr/lib/libcurl.dylib
+CURL_LIBRARY:FILEPATH=/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/curl-ios-device/lib/libcurl.a
 
 //The directory of DCMTK build or install tree.
 DCMTK_DIR:PATH=/usr
@@ -454,17 +447,17 @@ DL_LIBRARY:FILEPATH=/usr/lib/libdl.dylib
 
 //Set to ON to build OpenSceneGraph for dynamic linking.  Use OFF
 // for static.
-DYNAMIC_OPENSCENEGRAPH:BOOL=ON
+DYNAMIC_OPENSCENEGRAPH:BOOL=OFF
 
 //Set to ON to build OpenThreads for dynamic linking.  Use OFF
 // for static.
-DYNAMIC_OPENTHREADS:BOOL=ON
+DYNAMIC_OPENTHREADS:BOOL=OFF
 
 //Path to a file.
-EGL_INCLUDE_DIR:PATH=EGL_INCLUDE_DIR-NOTFOUND
+EGL_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include
 
 //Path to a library.
-EGL_LIBRARY:FILEPATH=EGL_LIBRARY-NOTFOUND
+EGL_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework
 
 //Path to a file.
 FBX_INCLUDE_DIR:PATH=FBX_INCLUDE_DIR-NOTFOUND
@@ -520,26 +513,63 @@ FFMPEG_LIBSWSCALE_LIBRARIES:FILEPATH=/usr/local/lib/libswscale.dylib
 //Location of FFMPEG
 FFMPEG_ROOT:PATH=
 
-//Path to a file.
-FREETYPE_INCLUDE_DIR_freetype2:PATH=FREETYPE_INCLUDE_DIR_freetype2-NOTFOUND
+//Path to a library.
+FLTK_BASE_LIBRARY:FILEPATH=/usr/local/lib/libfltk.dylib
 
-//Path to a file.
-FREETYPE_INCLUDE_DIR_ft2build:PATH=/Library/Frameworks/Mono.framework/Headers
+//Path to a program.
+FLTK_CONFIG_SCRIPT:FILEPATH=/usr/local/bin/fltk-config
+
+//The directory containing FLTKConfig.cmake.  This is either the
+// root of the build tree, or PREFIX/lib/fltk for an installation.
+FLTK_DIR:PATH=FLTK_DIR-NOTFOUND
+
+//Path to a program.
+FLTK_FLUID_EXECUTABLE:FILEPATH=/usr/local/bin/fluid
 
 //Path to a library.
-FREETYPE_LIBRARY_DEBUG:FILEPATH=FREETYPE_LIBRARY_DEBUG-NOTFOUND
+FLTK_FORMS_LIBRARY:FILEPATH=/usr/local/lib/libfltk_forms.dylib
 
 //Path to a library.
-FREETYPE_LIBRARY_RELEASE:FILEPATH=FREETYPE_LIBRARY_RELEASE-NOTFOUND
+FLTK_GL_LIBRARY:FILEPATH=/usr/local/lib/libfltk_gl.dylib
+
+//Path to a library.
+FLTK_IMAGES_LIBRARY:FILEPATH=/usr/local/lib/libfltk_images.dylib
+
+//Path to a file.
+FLTK_INCLUDE_DIR:PATH=/usr/local/include
+
+//Path to a library.
+FLTK_LIBRARY:FILEPATH=/usr/local/lib/libfltk.dylib
+
+//Path to a library.
+FLTK_MATH_LIBRARY:FILEPATH=/usr/lib/libm.dylib
+
+//Path to a file.
+FOX_INCLUDE_DIR:PATH=FOX_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+FOX_LIBRARY:FILEPATH=FOX_LIBRARY-NOTFOUND
+
+//Path to a file.
+FREETYPE_INCLUDE_DIR_freetype2:PATH=/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/freetype-ios-universal/include/freetype
+
+//Path to a file.
+FREETYPE_INCLUDE_DIR_ft2build:PATH=/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/freetype-ios-universal/include
+
+//Path to a library.
+FREETYPE_LIBRARY_DEBUG:FILEPATH=/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/freetype-ios-universal/lib/libFreetype2.a
+
+//Path to a library.
+FREETYPE_LIBRARY_RELEASE:FILEPATH=/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/freetype-ios-universal/lib/libFreetype2.a
 
 //Path to a program.
 GDAL_CONFIG:FILEPATH=GDAL_CONFIG-NOTFOUND
 
 //Path to a file.
-GDAL_INCLUDE_DIR:PATH=GDAL_INCLUDE_DIR-NOTFOUND
+GDAL_INCLUDE_DIR:PATH=/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/gdal-ios-device/include
 
 //Path to a library.
-GDAL_LIBRARY:FILEPATH=GDAL_LIBRARY-NOTFOUND
+GDAL_LIBRARY:FILEPATH=/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/gdal-ios-device/lib/libgdal.a
 
 //Path to a file.
 GLIBCONFIG_INCLUDE_DIR:PATH=/usr/local/Cellar/glib/2.52.0/lib/glib-2.0/include
@@ -601,6 +631,13 @@ INVENTOR_SOXT_LIBRARY:FILEPATH=INVENTOR_SOXT_LIBRARY-NOTFOUND
 //Path to a library.
 INVENTOR_SOXT_LIBRARY_DEBUG:FILEPATH=INVENTOR_SOXT_LIBRARY_DEBUG-NOTFOUND
 
+//IOS Enable Bitcode
+IPHONE_ENABLE_BITCODE:STRING=YES
+
+IPHONE_SDKVER:STRING=11.3
+
+IPHONE_VERSION_MIN:STRING=8.0
+
 //Path to a file.
 JASPER_INCLUDE_DIR:PATH=JASPER_INCLUDE_DIR-NOTFOUND
 
@@ -638,7 +675,7 @@ LIBVNCSERVER_INCLUDE_DIR:PATH=LIBVNCSERVER_INCLUDE_DIR-NOTFOUND
 LIBVNCSERVER_LIBRARY:FILEPATH=LIBVNCSERVER_LIBRARY-NOTFOUND
 
 //Path to a file.
-LIBXML2_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/libxml2
+LIBXML2_INCLUDE_DIR:PATH=LIBXML2_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
 LIBXML2_LIBRARIES:FILEPATH=/usr/lib/libxml2.dylib
@@ -849,24 +886,27 @@ OPENEXR_IlmImf_LIBRARY:FILEPATH=OPENEXR_IlmImf_LIBRARY-NOTFOUND
 //Path to a library.
 OPENEXR_IlmImf_LIBRARY_DEBUG:FILEPATH=OPENEXR_IlmImf_LIBRARY_DEBUG-NOTFOUND
 
+//Path to a library.
+OPENGLES_LIBRARY:FILEPATH=OPENGLES_LIBRARY-NOTFOUND
+
 //#include<> line for OpenGL Header
-OPENGL_HEADER1:STRING=#include <OpenGL/gl.h>
+OPENGL_HEADER1:STRING=#include <OpenGLES/ES2/gl.h>
 
 //#include<> line for additional OpenGL Headers if required
 OPENGL_HEADER2:STRING=
 
 //Include for OpenGL on OS X
-OPENGL_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework
+OPENGL_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework
 
 //OpenGL Profile to use, choose from GL1, GL2, GL3, GLES1, GLES2,
 // GLES3
-OPENGL_PROFILE:STRING=GL2
+OPENGL_PROFILE:STRING=GLES2
 
 //OpenGL library for OS X
-OPENGL_gl_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework
+OPENGL_gl_LIBRARY:FILEPATH=/System/Library/Frameworks/OpenGL.framework
 
 //GLU library for OS X (usually same as OpenGL library)
-OPENGL_glu_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework
+OPENGL_glu_LIBRARY:FILEPATH=/System/Library/Frameworks/OpenGL.framework
 
 //Set to ON to force OpenThreads to use a mutex for Atmoic.
 OPENTHREADS_ATOMIC_USE_MUTEX:BOOL=OFF
@@ -896,7 +936,7 @@ OSG_APPLICATIONS_SOURCE_DIR:STATIC=/WorkSpace/osg-ios/OpenSceneGraph/application
 OSG_BUILD_APPLICATION_BUNDLES:BOOL=OFF
 
 //Enable IPhoneSDK Device support
-OSG_BUILD_PLATFORM_IPHONE:BOOL=OFF
+OSG_BUILD_PLATFORM_IPHONE:BOOL=ON
 
 //Enable IPhoneSDK Simulator support
 OSG_BUILD_PLATFORM_IPHONE_SIMULATOR:BOOL=OFF
@@ -914,7 +954,7 @@ OSG_CPP_EXCEPTIONS_AVAILABLE:BOOL=ON
 //set the c++ language standard (C++98 / GNU++98 / C++11) for OSG
 OSG_CXX_LANGUAGE_STANDARD:STRING=C++11
 
-//Forced imageio default image plugin for OSX
+//Forced imageio default image plugin for iOS
 OSG_DEFAULT_IMAGE_PLUGIN_FOR_OSX:STRING=imageio
 
 //Set to OFF to not disable MSVC warnings generated by OSG headers.
@@ -930,10 +970,10 @@ OSG_ENVVAR_SUPPORTED:BOOL=ON
 OSG_FORCE_QUERY_RESULT_AVAILABLE_BEFORE_RETRIEVAL:BOOL=OFF
 
 //Set to OFF to disable use of OpenGL 1.x functions library.
-OSG_GL1_AVAILABLE:BOOL=ON
+OSG_GL1_AVAILABLE:BOOL=OFF
 
 //Set to OFF to disable use of OpenGL 2.x functions library.
-OSG_GL2_AVAILABLE:BOOL=ON
+OSG_GL2_AVAILABLE:BOOL=OFF
 
 //Set to OFF to disable use of OpenGL 3.x functions library.
 OSG_GL3_AVAILABLE:BOOL=OFF
@@ -942,7 +982,7 @@ OSG_GL3_AVAILABLE:BOOL=OFF
 OSG_GLES1_AVAILABLE:BOOL=OFF
 
 //Set to OFF to disable use of OpenGL ES 2.x functions library.
-OSG_GLES2_AVAILABLE:BOOL=OFF
+OSG_GLES2_AVAILABLE:BOOL=ON
 
 //Set to OFF to disable use of OpenGL ES 3.x functions library.
 OSG_GLES3_AVAILABLE:BOOL=OFF
@@ -951,24 +991,24 @@ OSG_GLES3_AVAILABLE:BOOL=OFF
 OSG_GL_CONTEXT_VERSION:STRING=1.0
 
 //Set to OFF to disable use of OpenGL display lists.
-OSG_GL_DISPLAYLISTS_AVAILABLE:BOOL=ON
+OSG_GL_DISPLAYLISTS_AVAILABLE:BOOL=OFF
 
 //Set to OFF to disable use of OpenGL fixed function pipeline.
-OSG_GL_FIXED_FUNCTION_AVAILABLE:BOOL=ON
+OSG_GL_FIXED_FUNCTION_AVAILABLE:BOOL=OFF
 
 //Set to ON to statically link with OpenGL/GLES library.
 OSG_GL_LIBRARY_STATIC:BOOL=OFF
 
 //Set to OFF to disable use of OpenGL built-in matrices.
-OSG_GL_MATRICES_AVAILABLE:BOOL=ON
+OSG_GL_MATRICES_AVAILABLE:BOOL=OFF
 
 //Set to OFF to disable use of OpenGL vertex functions such as
 // glVertexPointer/glColorPointer etc.
-OSG_GL_VERTEX_ARRAY_FUNCS_AVAILABLE:BOOL=ON
+OSG_GL_VERTEX_ARRAY_FUNCS_AVAILABLE:BOOL=OFF
 
 //Set to OFF to disable use of OpenGL vertex functions such as
 // glVertex/glColor etc.
-OSG_GL_VERTEX_FUNCS_AVAILABLE:BOOL=ON
+OSG_GL_VERTEX_FUNCS_AVAILABLE:BOOL=OFF
 
 //Enable OpenSceneGraph maintainer build methods, such as making
 // git branches, tags, updating ChangeLog.
@@ -1022,9 +1062,8 @@ OSG_USE_REF_PTR_IMPLICIT_OUTPUT_CONVERSION:BOOL=ON
 // or called. 
 OSG_USE_REF_PTR_SAFE_DEREFERENCE:BOOL=OFF
 
-//Windowing system type for graphics window creation, options Carbon,
-// Cocoa or X11.
-OSG_WINDOWING_SYSTEM:STRING=Cocoa
+//Forced IPhone windowing system on iOS
+OSG_WINDOWING_SYSTEM:STRING=IOS
 
 //Value Computed by CMake
 OpenSceneGraph_BINARY_DIR:STATIC=/WorkSpace/osg-ios/OpenSceneGraph/build
@@ -1042,19 +1081,19 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/local/bin/pkg-config
 QTKIT_INCLUDE_DIR:PATH=QTKIT_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
-QTKIT_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QTKit.framework
+QTKIT_LIBRARY:FILEPATH=/System/Library/Frameworks/QTKit.framework
 
 //Path to a file.
-QUARTZCORE_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework
+QUARTZCORE_INCLUDE_DIR:PATH=QUARTZCORE_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
-QUARTZCORE_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework
+QUARTZCORE_LIBRARY:FILEPATH=/System/Library/Frameworks/QuartzCore.framework
 
 //Path to a file.
 QUICKTIME_INCLUDE_DIR:PATH=QUICKTIME_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
-QUICKTIME_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuickTime.framework
+QUICKTIME_LIBRARY:FILEPATH=/System/Library/Frameworks/QuickTime.framework
 
 //Path to a library.
 SDL2MAIN_LIBRARY:FILEPATH=SDL2MAIN_LIBRARY-NOTFOUND
@@ -1075,13 +1114,13 @@ SDL_INCLUDE_DIR:PATH=SDL_INCLUDE_DIR-NOTFOUND
 SDL_LIBRARY_TEMP:FILEPATH=SDL_LIBRARY_TEMP-NOTFOUND
 
 //Path to a file.
-TIFF_INCLUDE_DIR:PATH=/Library/Frameworks/Mono.framework/Headers
+TIFF_INCLUDE_DIR:PATH=/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/tiff-ios-device/include
 
 //Path to a library.
-TIFF_LIBRARY_DEBUG:FILEPATH=TIFF_LIBRARY_DEBUG-NOTFOUND
+TIFF_LIBRARY_DEBUG:FILEPATH=/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/tiff-ios-device/lib/libtiff.a
 
 //Path to a library.
-TIFF_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libtiff.dylib
+TIFF_LIBRARY_RELEASE:FILEPATH=/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/tiff-ios-device/lib/libtiff.a
 
 //Path to a file.
 X11_ICE_INCLUDE_PATH:PATH=/opt/X11/include
@@ -1273,7 +1312,7 @@ XINE_INCLUDE_DIR:PATH=XINE_INCLUDE_DIR-NOTFOUND
 XINE_LIBRARY:FILEPATH=XINE_LIBRARY-NOTFOUND
 
 //Path to a file.
-ZLIB_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include
+ZLIB_INCLUDE_DIR:PATH=ZLIB_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
 ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
@@ -1282,55 +1321,55 @@ ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
 ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/libz.dylib
 
 //Dependencies for the target
-osgAnimation_LIB_DEPENDS:STATIC=general;osg;general;osgText;general;osgGA;general;osgViewer;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgAnimation_LIB_DEPENDS:STATIC=general;osg;general;osgText;general;osgGA;general;osgViewer;general;OpenThreads;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgDB_LIB_DEPENDS:STATIC=general;osg;general;osgUtil;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Carbon.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework;general;/usr/lib/libdl.dylib;general;/usr/lib/libz.dylib;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgDB_LIB_DEPENDS:STATIC=general;osg;general;osgUtil;general;OpenThreads;general;/usr/lib/libdl.dylib;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgFX_LIB_DEPENDS:STATIC=general;osgUtil;general;osgDB;general;osg;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgFX_LIB_DEPENDS:STATIC=general;osgUtil;general;osgDB;general;osg;general;OpenThreads;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgGA_LIB_DEPENDS:STATIC=general;osgDB;general;osgUtil;general;osg;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgGA_LIB_DEPENDS:STATIC=general;osgDB;general;osgUtil;general;osg;general;OpenThreads;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgManipulator_LIB_DEPENDS:STATIC=general;osgViewer;general;osgGA;general;osgUtil;general;osg;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgManipulator_LIB_DEPENDS:STATIC=general;osgViewer;general;osgGA;general;osgUtil;general;osg;general;OpenThreads;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgParticle_LIB_DEPENDS:STATIC=general;osgUtil;general;osgDB;general;osg;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgParticle_LIB_DEPENDS:STATIC=general;osgUtil;general;osgDB;general;osg;general;OpenThreads;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgPresentation_LIB_DEPENDS:STATIC=general;osgViewer;general;osgUI;general;osgWidget;general;osgManipulator;general;osgVolume;general;osgFX;general;osgText;general;osgGA;general;osgUtil;general;osgDB;general;osg;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgPresentation_LIB_DEPENDS:STATIC=general;osgViewer;general;osgUI;general;osgWidget;general;osgManipulator;general;osgVolume;general;osgFX;general;osgText;general;osgGA;general;osgUtil;general;osgDB;general;osg;general;OpenThreads;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgShadow_LIB_DEPENDS:STATIC=general;osgUtil;general;osgDB;general;osg;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgShadow_LIB_DEPENDS:STATIC=general;osgUtil;general;osgDB;general;osg;general;OpenThreads;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgSim_LIB_DEPENDS:STATIC=general;osgText;general;osgUtil;general;osgDB;general;osg;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgSim_LIB_DEPENDS:STATIC=general;osgText;general;osgUtil;general;osgDB;general;osg;general;OpenThreads;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgTerrain_LIB_DEPENDS:STATIC=general;osgUtil;general;osgDB;general;osg;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgTerrain_LIB_DEPENDS:STATIC=general;osgUtil;general;osgDB;general;osg;general;OpenThreads;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgText_LIB_DEPENDS:STATIC=general;osgDB;general;osg;general;osgUtil;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgText_LIB_DEPENDS:STATIC=general;osgDB;general;osg;general;osgUtil;general;OpenThreads;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgUI_LIB_DEPENDS:STATIC=general;osgDB;general;osgGA;general;osgUtil;general;osgText;general;osgViewer;general;osg;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgUI_LIB_DEPENDS:STATIC=general;osgDB;general;osgGA;general;osgUtil;general;osgText;general;osgViewer;general;osg;general;OpenThreads;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgUtil_LIB_DEPENDS:STATIC=general;osg;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgUtil_LIB_DEPENDS:STATIC=general;osg;general;OpenThreads;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgViewer_LIB_DEPENDS:STATIC=general;osgGA;general;osgText;general;osgDB;general;osgUtil;general;osg;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgViewer_LIB_DEPENDS:STATIC=general;osgGA;general;osgText;general;osgDB;general;osgUtil;general;osg;general;OpenThreads;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgVolume_LIB_DEPENDS:STATIC=general;osgUtil;general;osgDB;general;osgGA;general;osg;general;OpenThreads;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgVolume_LIB_DEPENDS:STATIC=general;osgUtil;general;osgDB;general;osgGA;general;osg;general;OpenThreads;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osgWidget_LIB_DEPENDS:STATIC=general;osgText;general;osgViewer;general;osgDB;general;osg;general;OpenThreads;general;osgGA;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osgWidget_LIB_DEPENDS:STATIC=general;osgText;general;osgViewer;general;osgDB;general;osg;general;OpenThreads;general;osgGA;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
-osg_LIB_DEPENDS:STATIC=general;OpenThreads;general;/usr/lib/libm.dylib;general;/usr/lib/libdl.dylib;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;
+osg_LIB_DEPENDS:STATIC=general;OpenThreads;general;/usr/lib/libm.dylib;general;/usr/lib/libdl.dylib;general;/System/Library/Frameworks/OpenGL.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework;
 
 //Dependencies for the target
 osgdb_3dc_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;
@@ -1342,7 +1381,7 @@ osgdb_3ds_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;gener
 osgdb_ac_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;
 
 //Dependencies for the target
-osgdb_avfoundation_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgViewer;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AVFoundation.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreVideo.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreMedia.framework;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework;
+osgdb_avfoundation_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgViewer;general;/System/Library/Frameworks/AVFoundation.framework;general;/System/Library/Frameworks/CoreVideo.framework;general;/System/Library/Frameworks/CoreMedia.framework;general;/System/Library/Frameworks/QuartzCore.framework;
 
 //Dependencies for the target
 osgdb_bmp_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;
@@ -1357,7 +1396,7 @@ osgdb_bvh_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;gener
 osgdb_cfg_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgViewer;
 
 //Dependencies for the target
-osgdb_curl_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;/usr/lib/libcurl.dylib;general;/usr/lib/libz.dylib;
+osgdb_curl_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/curl-ios-device/lib/libcurl.a;
 
 //Dependencies for the target
 osgdb_dds_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;
@@ -1402,6 +1441,12 @@ osgdb_dot_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;gener
 osgdb_dxf_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgText;
 
 //Dependencies for the target
+osgdb_freetype_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgText;general;/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/freetype-ios-universal/lib/libFreetype2.a;
+
+//Dependencies for the target
+osgdb_gdal_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgTerrain;general;/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/gdal-ios-device/lib/libgdal.a;
+
+//Dependencies for the target
 osgdb_gles_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgAnimation;
 
 //Dependencies for the target
@@ -1417,7 +1462,7 @@ osgdb_hdr_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;gener
 osgdb_imageio_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;/System/Library/Frameworks/Accelerate.framework;
 
 //Dependencies for the target
-osgdb_ive_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgSim;general;osgFX;general;osgText;general;osgTerrain;general;osgVolume;general;/usr/lib/libz.dylib;
+osgdb_ive_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgSim;general;osgFX;general;osgText;general;osgTerrain;general;osgVolume;
 
 //Dependencies for the target
 osgdb_jpeg_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;/usr/local/lib/libjpeg.dylib;
@@ -1448,6 +1493,9 @@ osgdb_normals_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;g
 
 //Dependencies for the target
 osgdb_obj_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;
+
+//Dependencies for the target
+osgdb_ogr_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/gdal-ios-device/lib/libgdal.a;
 
 //Dependencies for the target
 osgdb_openflight_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgSim;
@@ -1564,7 +1612,7 @@ osgdb_tga_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;gener
 osgdb_tgz_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;
 
 //Dependencies for the target
-osgdb_tiff_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;/usr/local/lib/libtiff.dylib;
+osgdb_tiff_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;optimized;/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/tiff-ios-device/lib/libtiff.a;debug;/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/tiff-ios-device/lib/libtiff.a;
 
 //Dependencies for the target
 osgdb_trans_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;
@@ -1585,16 +1633,24 @@ osgdb_vtf_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;gener
 osgdb_x_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;
 
 //Dependencies for the target
-osgdb_zeroconf_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgGA;general;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework;
+osgdb_zeroconf_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgGA;
 
 //Dependencies for the target
 osgdb_zip_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;
+
+//Location of wxWidgets library configuration provider binary (wx-config).
+wxWidgets_CONFIG_EXECUTABLE:FILEPATH=wxWidgets_CONFIG_EXECUTABLE-NOTFOUND
+
+//Location of wxWidgets resource file compiler binary (wxrc)
+wxWidgets_wxrc_EXECUTABLE:FILEPATH=wxWidgets_wxrc_EXECUTABLE-NOTFOUND
 
 
 ########################
 # INTERNAL cache entries
 ########################
 
+//Stored Xcode object GUID
+ALL_BUILD_GUID_CMAKE:INTERNAL=7C287CBB51F84AFB9C92948F
 //ADVANCED property for variable: BUILD_DOCUMENTATION
 BUILD_DOCUMENTATION-ADVANCED:INTERNAL=0
 //ADVANCED property for variable: BUILD_OSG_PLUGINS
@@ -1713,7 +1769,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=117
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=114
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1851,7 +1907,15 @@ EGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: EGL_LIBRARY
 EGL_LIBRARY-ADVANCED:INTERNAL=1
 //Details about finding CURL
-FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/usr/lib/libcurl.dylib][/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include][v7.54.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/curl-ios-device/lib/libcurl.a][/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/curl-ios-device/include][v()]
+//Details about finding EGL
+FIND_PACKAGE_MESSAGE_DETAILS_EGL:INTERNAL=[/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework][/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include][v()]
+//Details about finding FLTK
+FIND_PACKAGE_MESSAGE_DETAILS_FLTK:INTERNAL=[/usr/local/lib/libfltk_images.dylib;/usr/local/lib/libfltk_forms.dylib;/usr/local/lib/libfltk_gl.dylib;/System/Library/Frameworks/OpenGL.framework;/usr/local/lib/libfltk.dylib][/usr/local/include;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework][/usr/local/bin/fluid][v()]
+//Details about finding Freetype
+FIND_PACKAGE_MESSAGE_DETAILS_Freetype:INTERNAL=[/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/freetype-ios-universal/lib/libFreetype2.a][/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/freetype-ios-universal/include;/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/freetype-ios-universal/include/freetype][v()]
+//Details about finding GDAL
+FIND_PACKAGE_MESSAGE_DETAILS_GDAL:INTERNAL=[/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/gdal-ios-device/lib/libgdal.a][/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/gdal-ios-device/include][v()]
 //Details about finding GLIB
 FIND_PACKAGE_MESSAGE_DETAILS_GLIB:INTERNAL=[/usr/local/Cellar/glib/2.52.0/include/glib-2.0;/usr/local/Cellar/glib/2.52.0/lib/glib-2.0/include][/usr/local/Cellar/glib/2.52.0/lib/libglib-2.0.dylib][/usr/local/Cellar/glib/2.52.0/lib/libgobject-2.0.dylib][v2.52.0()]
 //Details about finding JPEG
@@ -1859,17 +1923,19 @@ FIND_PACKAGE_MESSAGE_DETAILS_JPEG:INTERNAL=[/usr/local/lib/libjpeg.dylib][/Libra
 //Details about finding LibXml2
 FIND_PACKAGE_MESSAGE_DETAILS_LibXml2:INTERNAL=[/usr/lib/libxml2.dylib][/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/libxml2][v2.9.4()]
 //Details about finding OpenGL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework][/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/System/Library/Frameworks/OpenGL.framework][/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework][v()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/local/bin/pkg-config][v0.29.2()]
 //Details about finding TIFF
-FIND_PACKAGE_MESSAGE_DETAILS_TIFF:INTERNAL=[/usr/local/lib/libtiff.dylib][/Library/Frameworks/Mono.framework/Headers][v4.0.8()]
+FIND_PACKAGE_MESSAGE_DETAILS_TIFF:INTERNAL=[/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/tiff-ios-device/lib/libtiff.a][/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/tiff-ios-device/include][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding X11
 FIND_PACKAGE_MESSAGE_DETAILS_X11:INTERNAL=[/opt/X11/lib/libX11.dylib][/opt/X11/include]
 //Details about finding ZLIB
 FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/usr/lib/libz.dylib][/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include][v1.2.11()]
+//Extra libraries for fltk_images library.
+FLTK_IMAGES_LIBS:INTERNAL=-lpng;-lz;-ljpeg
 //ADVANCED property for variable: FREETYPE_INCLUDE_DIR_freetype2
 FREETYPE_INCLUDE_DIR_freetype2-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: FREETYPE_INCLUDE_DIR_ft2build
@@ -2189,6 +2255,8 @@ OSG_USE_FLOAT_BOUNDINGSPHERE-ADVANCED:INTERNAL=1
 OSG_USE_FLOAT_MATRIX-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OSG_USE_FLOAT_PLANE
 OSG_USE_FLOAT_PLANE-ADVANCED:INTERNAL=1
+//Stored Xcode object GUID
+OpenThreads_GUID_CMAKE:INTERNAL=476CDBEADC1E48A88C6A0789
 PC_GLIB_CFLAGS:INTERNAL=-I/usr/local/Cellar/glib/2.52.0/include/glib-2.0;-I/usr/local/Cellar/glib/2.52.0/lib/glib-2.0/include;-I/usr/local/opt/gettext/include;-I/usr/local/include
 PC_GLIB_CFLAGS_I:INTERNAL=
 PC_GLIB_CFLAGS_OTHER:INTERNAL=
@@ -2283,6 +2351,10 @@ POPPLER_poppler-glib_INCLUDEDIR:INTERNAL=
 POPPLER_poppler-glib_LIBDIR:INTERNAL=
 POPPLER_poppler-glib_PREFIX:INTERNAL=
 POPPLER_poppler-glib_VERSION:INTERNAL=
+//Stored Xcode object GUID
+PROJECT_OSG_PLUGINS_MASTER_GUID_CMAKE:INTERNAL=905DCD2EC50244BCB86FB418
+//Stored Xcode object GUID
+PROJECT_OpenSceneGraph_GUID_CMAKE:INTERNAL=BC609AE5B3BD4408920BF382
 RSVG_CFLAGS:INTERNAL=
 RSVG_CFLAGS_I:INTERNAL=
 RSVG_CFLAGS_OTHER:INTERNAL=
@@ -2437,6 +2509,8 @@ X11_dpms_INCLUDE_PATH-ADVANCED:INTERNAL=1
 X11_xf86misc_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xf86vmode_INCLUDE_PATH
 X11_xf86vmode_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//Stored Xcode object GUID
+ZERO_CHECK_GUID_CMAKE:INTERNAL=D645F43B2E87461397222870
 //ADVANCED property for variable: ZLIB_INCLUDE_DIR
 ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
@@ -2482,5 +2556,225 @@ __pkg_config_checked_PC_GLIB:INTERNAL=1
 __pkg_config_checked_PC_LIBXML:INTERNAL=1
 __pkg_config_checked_POPPLER:INTERNAL=1
 __pkg_config_checked_RSVG:INTERNAL=1
+//Stored Xcode object GUID
+example_osgViewerIPhone_GUID_CMAKE:INTERNAL=8556613F5A6043BB89A4083B
+//Stored Xcode object GUID
+example_osgstaticviewer_GUID_CMAKE:INTERNAL=CE28A7063F9D42A980EA4E70
+//Stored Xcode object GUID
+install_GUID_CMAKE:INTERNAL=7C7019E7BF5A4546A3D18F35
+//Stored Xcode object GUID
+osgAnimation_GUID_CMAKE:INTERNAL=F1AB1F5E388449059AACE237
+//Stored Xcode object GUID
+osgDB_GUID_CMAKE:INTERNAL=832DEF71DED042AA89602AA6
+//Stored Xcode object GUID
+osgFX_GUID_CMAKE:INTERNAL=8348C47B03AB47F3AAC44696
+//Stored Xcode object GUID
+osgGA_GUID_CMAKE:INTERNAL=7A72ED3FC3ED402EB3F5914F
+//Stored Xcode object GUID
+osgManipulator_GUID_CMAKE:INTERNAL=A785C686C19F4E428408582F
+//Stored Xcode object GUID
+osgParticle_GUID_CMAKE:INTERNAL=72D904BEAF1F4DB2AA72129B
+//Stored Xcode object GUID
+osgPresentation_GUID_CMAKE:INTERNAL=29458C2C83724C71A04CF8C6
+//Stored Xcode object GUID
+osgShadow_GUID_CMAKE:INTERNAL=2F153A741802453493319B94
+//Stored Xcode object GUID
+osgSim_GUID_CMAKE:INTERNAL=FA80635465A946ED8B961179
+//Stored Xcode object GUID
+osgTerrain_GUID_CMAKE:INTERNAL=1662577E6AEF436B9AF3B132
+//Stored Xcode object GUID
+osgText_GUID_CMAKE:INTERNAL=C1533558830C4C248C0D1393
+//Stored Xcode object GUID
+osgUI_GUID_CMAKE:INTERNAL=5D52D23BCD4B42019DC477B3
+//Stored Xcode object GUID
+osgUtil_GUID_CMAKE:INTERNAL=B47FCEDDF2444C44AE9482BF
+//Stored Xcode object GUID
+osgViewer_GUID_CMAKE:INTERNAL=A32705A6BC95470885C3BB2A
+//Stored Xcode object GUID
+osgVolume_GUID_CMAKE:INTERNAL=78B2CAEA1B754574BB6AA529
+//Stored Xcode object GUID
+osgWidget_GUID_CMAKE:INTERNAL=B405118E13174327BB55478B
+//Stored Xcode object GUID
+osg_GUID_CMAKE:INTERNAL=C3BC2A8106F2440AA809337B
+//Stored Xcode object GUID
+osgdb_3dc_GUID_CMAKE:INTERNAL=CDADEEF3588A4D32880DDBA4
+//Stored Xcode object GUID
+osgdb_3ds_GUID_CMAKE:INTERNAL=FB6B571895AE495E9C2F7EDD
+//Stored Xcode object GUID
+osgdb_ac_GUID_CMAKE:INTERNAL=E3919DA4BF3B4C67A1D3F5EF
+//Stored Xcode object GUID
+osgdb_avfoundation_GUID_CMAKE:INTERNAL=A45B0C40ADB547B6AA899308
+//Stored Xcode object GUID
+osgdb_bmp_GUID_CMAKE:INTERNAL=206545C868A54574AE3805B8
+//Stored Xcode object GUID
+osgdb_bsp_GUID_CMAKE:INTERNAL=F9406873680B44C8AC6E2C6F
+//Stored Xcode object GUID
+osgdb_bvh_GUID_CMAKE:INTERNAL=D58DA3AE435B4CB89C4E7686
+//Stored Xcode object GUID
+osgdb_cfg_GUID_CMAKE:INTERNAL=B75AD52273924077A83D27C8
+//Stored Xcode object GUID
+osgdb_curl_GUID_CMAKE:INTERNAL=573FC0CF5A784D2D9C115D5D
+//Stored Xcode object GUID
+osgdb_dds_GUID_CMAKE:INTERNAL=CB6AE52D0D944C2681340834
+//Stored Xcode object GUID
+osgdb_deprecated_osg_GUID_CMAKE:INTERNAL=0FCD7BE3F67F4702839B7536
+//Stored Xcode object GUID
+osgdb_deprecated_osganimation_GUID_CMAKE:INTERNAL=CAEC9726E2064F6C8EE122A9
+//Stored Xcode object GUID
+osgdb_deprecated_osgfx_GUID_CMAKE:INTERNAL=33533AF120D740E88BB3ADB2
+//Stored Xcode object GUID
+osgdb_deprecated_osgparticle_GUID_CMAKE:INTERNAL=350FB76446C24FC8A8CC9A6C
+//Stored Xcode object GUID
+osgdb_deprecated_osgshadow_GUID_CMAKE:INTERNAL=5BC81786B44949ABB071FFEE
+//Stored Xcode object GUID
+osgdb_deprecated_osgsim_GUID_CMAKE:INTERNAL=22DA3886ECCD4C2DA011FDE4
+//Stored Xcode object GUID
+osgdb_deprecated_osgterrain_GUID_CMAKE:INTERNAL=0D4E339490354DD79DC5FD18
+//Stored Xcode object GUID
+osgdb_deprecated_osgtext_GUID_CMAKE:INTERNAL=37F85B44203E4B05B9C19440
+//Stored Xcode object GUID
+osgdb_deprecated_osgviewer_GUID_CMAKE:INTERNAL=2ED1F469AD034A908493A612
+//Stored Xcode object GUID
+osgdb_deprecated_osgvolume_GUID_CMAKE:INTERNAL=A02817B2C58F4B1FA55A1C42
+//Stored Xcode object GUID
+osgdb_deprecated_osgwidget_GUID_CMAKE:INTERNAL=DA63D936D43544BE98030A4D
+//Stored Xcode object GUID
+osgdb_dot_GUID_CMAKE:INTERNAL=C232001A87E9480FB12596AD
+//Stored Xcode object GUID
+osgdb_dxf_GUID_CMAKE:INTERNAL=728ACC5A7A6B4A8CBF3CC8E9
+//Stored Xcode object GUID
+osgdb_freetype_GUID_CMAKE:INTERNAL=C86B7F0734BC460B901CABAA
+//Stored Xcode object GUID
+osgdb_gdal_GUID_CMAKE:INTERNAL=A2D1E9E322194A958EA8E8E7
+//Stored Xcode object GUID
+osgdb_gles_GUID_CMAKE:INTERNAL=9F255DAF50534138A5CE3BC0
+//Stored Xcode object GUID
+osgdb_glsl_GUID_CMAKE:INTERNAL=0E06E95E2DD44DC78F8FFF79
+//Stored Xcode object GUID
+osgdb_gz_GUID_CMAKE:INTERNAL=C05120C677DA4F588ECFFEEE
+//Stored Xcode object GUID
+osgdb_hdr_GUID_CMAKE:INTERNAL=2603AB76975E425B9E619817
+//Stored Xcode object GUID
+osgdb_imageio_GUID_CMAKE:INTERNAL=B552908EAF6F4F1EA3CCDA1B
+//Stored Xcode object GUID
+osgdb_ive_GUID_CMAKE:INTERNAL=8766CE093555477B97A92C59
+//Stored Xcode object GUID
+osgdb_jpeg_GUID_CMAKE:INTERNAL=9D5EF350A0574E4D913B0C45
+//Stored Xcode object GUID
+osgdb_ktx_GUID_CMAKE:INTERNAL=34522BB125AD42C68732F97C
+//Stored Xcode object GUID
+osgdb_logo_GUID_CMAKE:INTERNAL=D31DD5B829364377A8FDDF0A
+//Stored Xcode object GUID
+osgdb_lua_GUID_CMAKE:INTERNAL=9C6518BBBA664FD0ABA1EF37
+//Stored Xcode object GUID
+osgdb_lwo_GUID_CMAKE:INTERNAL=014EB1AA49AB4280BBDE45DE
+//Stored Xcode object GUID
+osgdb_lws_GUID_CMAKE:INTERNAL=A63A83CA57BF4DF6AF67C066
+//Stored Xcode object GUID
+osgdb_md2_GUID_CMAKE:INTERNAL=F14DAC0AC7804E1F8FDE0213
+//Stored Xcode object GUID
+osgdb_mdl_GUID_CMAKE:INTERNAL=DB672BFA62B3453685BC7FE9
+//Stored Xcode object GUID
+osgdb_normals_GUID_CMAKE:INTERNAL=2E0E5DC6EA3A4D5CA6E2E717
+//Stored Xcode object GUID
+osgdb_obj_GUID_CMAKE:INTERNAL=8D9AB5EED4234DF8886BB378
+//Stored Xcode object GUID
+osgdb_ogr_GUID_CMAKE:INTERNAL=3EF6C7E834E446709C026E48
+//Stored Xcode object GUID
+osgdb_openflight_GUID_CMAKE:INTERNAL=87C73B7C0F1740AF96E96F05
+//Stored Xcode object GUID
+osgdb_osc_GUID_CMAKE:INTERNAL=19DDF23BB0C84283BB5B0D8C
+//Stored Xcode object GUID
+osgdb_osg_GUID_CMAKE:INTERNAL=5DCFE7B6B8E841D8B10B3A27
+//Stored Xcode object GUID
+osgdb_osga_GUID_CMAKE:INTERNAL=5F4C180842634B14818CFEAE
+//Stored Xcode object GUID
+osgdb_osgjs_GUID_CMAKE:INTERNAL=05A4FE5FCF7747408D823A1F
+//Stored Xcode object GUID
+osgdb_osgshadow_GUID_CMAKE:INTERNAL=44837F66FC6D4555804AF5F8
+//Stored Xcode object GUID
+osgdb_osgterrain_GUID_CMAKE:INTERNAL=0DBD13F5990148E1A2FE254B
+//Stored Xcode object GUID
+osgdb_osgtgz_GUID_CMAKE:INTERNAL=70B812A23F36477CA8F5DF52
+//Stored Xcode object GUID
+osgdb_osgviewer_GUID_CMAKE:INTERNAL=35C015A4A187496B91775B53
+//Stored Xcode object GUID
+osgdb_p3d_GUID_CMAKE:INTERNAL=C210F1B626EE433ABE851AA6
+//Stored Xcode object GUID
+osgdb_pic_GUID_CMAKE:INTERNAL=9685EAC4AD974A50813D9807
+//Stored Xcode object GUID
+osgdb_ply_GUID_CMAKE:INTERNAL=01FAE74BEDCB49EDB3F7082A
+//Stored Xcode object GUID
+osgdb_pnm_GUID_CMAKE:INTERNAL=AA356B6E32D440BF975D3294
+//Stored Xcode object GUID
+osgdb_pov_GUID_CMAKE:INTERNAL=E533A4A0B4A545E79C391C17
+//Stored Xcode object GUID
+osgdb_pvr_GUID_CMAKE:INTERNAL=0177C00971584EEC9AD92F5D
+//Stored Xcode object GUID
+osgdb_revisions_GUID_CMAKE:INTERNAL=9F54F4409C0540B099BD40CE
+//Stored Xcode object GUID
+osgdb_rgb_GUID_CMAKE:INTERNAL=9715B3EB08384213A6D529D1
+//Stored Xcode object GUID
+osgdb_rot_GUID_CMAKE:INTERNAL=D8B4E868A013410DAA8E5355
+//Stored Xcode object GUID
+osgdb_scale_GUID_CMAKE:INTERNAL=29B3EAEDC77D40B89D45C81F
+//Stored Xcode object GUID
+osgdb_serializers_osg_GUID_CMAKE:INTERNAL=DD270B9C57F244E5A04FD9E2
+//Stored Xcode object GUID
+osgdb_serializers_osganimation_GUID_CMAKE:INTERNAL=4D2F87DA31E248EF83F69BBE
+//Stored Xcode object GUID
+osgdb_serializers_osgfx_GUID_CMAKE:INTERNAL=DFEAFA4F232B4ED69BB06E8A
+//Stored Xcode object GUID
+osgdb_serializers_osgga_GUID_CMAKE:INTERNAL=C3DA83E4A71242408C32E604
+//Stored Xcode object GUID
+osgdb_serializers_osgmanipulator_GUID_CMAKE:INTERNAL=956706E8480F426490109095
+//Stored Xcode object GUID
+osgdb_serializers_osgparticle_GUID_CMAKE:INTERNAL=A10DAB1088FD44219ACFC82A
+//Stored Xcode object GUID
+osgdb_serializers_osgshadow_GUID_CMAKE:INTERNAL=02F8B51821D942D48F73F5CC
+//Stored Xcode object GUID
+osgdb_serializers_osgsim_GUID_CMAKE:INTERNAL=D4B6A7D33DA54D8580D88D1A
+//Stored Xcode object GUID
+osgdb_serializers_osgterrain_GUID_CMAKE:INTERNAL=A2F1AFA51E2846A28D8FE637
+//Stored Xcode object GUID
+osgdb_serializers_osgtext_GUID_CMAKE:INTERNAL=A402D918519E4FDB88E0800D
+//Stored Xcode object GUID
+osgdb_serializers_osgui_GUID_CMAKE:INTERNAL=2B3C8EF0E7FF4634BCDA2B1F
+//Stored Xcode object GUID
+osgdb_serializers_osgutil_GUID_CMAKE:INTERNAL=6DE72F3271E14091BD25DCDC
+//Stored Xcode object GUID
+osgdb_serializers_osgviewer_GUID_CMAKE:INTERNAL=DE90ED3E2CDC4ED6B4241B96
+//Stored Xcode object GUID
+osgdb_serializers_osgvolume_GUID_CMAKE:INTERNAL=6A042BE3497E4025BAC49E5D
+//Stored Xcode object GUID
+osgdb_shp_GUID_CMAKE:INTERNAL=564AF1DB33B445C9823CBC4C
+//Stored Xcode object GUID
+osgdb_stl_GUID_CMAKE:INTERNAL=5C9EA4A119C04A1DBBD1AB29
+//Stored Xcode object GUID
+osgdb_tf_GUID_CMAKE:INTERNAL=D8042CC034754BB6A60B32AA
+//Stored Xcode object GUID
+osgdb_tga_GUID_CMAKE:INTERNAL=DE2E9C3A22624AEB83EA037A
+//Stored Xcode object GUID
+osgdb_tgz_GUID_CMAKE:INTERNAL=D5A2F9F0A7D54ECBB5B3C6AE
+//Stored Xcode object GUID
+osgdb_tiff_GUID_CMAKE:INTERNAL=B9534CA2CA4948CB8D1D8175
+//Stored Xcode object GUID
+osgdb_trans_GUID_CMAKE:INTERNAL=88685B0A81AD4F2698DB7919
+//Stored Xcode object GUID
+osgdb_trk_GUID_CMAKE:INTERNAL=33A32E3F1D2B413D835AEEE3
+//Stored Xcode object GUID
+osgdb_txf_GUID_CMAKE:INTERNAL=08231557A2704A209C6BBAC0
+//Stored Xcode object GUID
+osgdb_txp_GUID_CMAKE:INTERNAL=B9FD9C0D1A934919B1F66F4A
+//Stored Xcode object GUID
+osgdb_vtf_GUID_CMAKE:INTERNAL=5C6729BB18A84B2F968887AA
+//Stored Xcode object GUID
+osgdb_x_GUID_CMAKE:INTERNAL=300015935D6B44F1A6FB0DEA
+//Stored Xcode object GUID
+osgdb_zeroconf_GUID_CMAKE:INTERNAL=9682019D7EE743EBB2796931
+//Stored Xcode object GUID
+osgdb_zip_GUID_CMAKE:INTERNAL=B44882280E664D7E9CD59CF8
 prefix_result:INTERNAL=/usr/local/Cellar/glib/2.52.0/lib
+//Stored Xcode object GUID
+uninstall_GUID_CMAKE:INTERNAL=BF53558C2D6F4BEB82F68E7F
 
