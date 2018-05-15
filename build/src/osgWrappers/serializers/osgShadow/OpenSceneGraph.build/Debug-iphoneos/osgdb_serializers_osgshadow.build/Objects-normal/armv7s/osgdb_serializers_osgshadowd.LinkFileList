@@ -1,0 +1,17 @@
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/DebugShadowMap.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/LibraryWrapper.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/LightSpacePerspectiveShadowMapCB.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/LightSpacePerspectiveShadowMapDB.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/LightSpacePerspectiveShadowMapVB.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/MinimalCullBoundsShadowMap.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/MinimalDrawBoundsShadowMap.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/MinimalShadowMap.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/ParallelSplitShadowMap.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/ShadowMap.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/ShadowTechnique.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/ShadowTexture.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/ShadowVolume.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/ShadowedScene.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/SoftShadowMap.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/StandardShadowMap.o
+/WorkSpace/osg-ios/OpenSceneGraph/build/src/osgWrappers/serializers/osgShadow/OpenSceneGraph.build/Debug-iphoneos/osgdb_serializers_osgshadow.build/Objects-normal/armv7s/ViewDependentShadowTechnique.o
