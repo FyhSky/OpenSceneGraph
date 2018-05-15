@@ -119,7 +119,6 @@
 				307D041A91764C5C91B591E4 /* PBXTargetDependency */,
 				E2B1C50EA2674111B98C1C20 /* PBXTargetDependency */,
 				B6BD3B1633F64E98B25C4A60 /* PBXTargetDependency */,
-				9327E8D1ECF24DDD87D72F84 /* PBXTargetDependency */,
 				D9358D64956B49CD9C7E627E /* PBXTargetDependency */,
 				0B14B09EDD4D401C8D7C7C94 /* PBXTargetDependency */,
 			);
@@ -1080,7 +1079,6 @@
 		9FC05888D33E479E97BEA0D9 /* GlyphGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4639F2FA8764C99AF9884D6 /* GlyphGeometry.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		9FF4FFD76B61471E85705C18 /* Light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F535BB684343B9AA4CAFBD /* Light.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		A0009C97BC16460E87663C22 /* IO_ParticleProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB6EEE0C3785444A95A6A3BA /* IO_ParticleProcessor.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		A0016DC262B44324B9DA27F4 /* osgstaticviewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 889EA624DB2C4382986477B7 /* osgstaticviewer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		A00654F1B3A94755853C771A /* MinimalShadowMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F95A5A07882040ECA313E181 /* MinimalShadowMap.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		A0342D3ECED740B3B9111434 /* AutoTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 498B226065EE4DF590F71593 /* AutoTransform.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		A047AC5A28AC45FF8EF01339 /* GLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B69D30582C44823A08A18F4 /* GLExtensions.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -1891,13 +1889,6 @@
 			remoteGlobalIDString = C1533558830C4C248C0D1393;
 			remoteInfo = osgText;
 		};
-		0D151BCFC8B847F590160EC9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5BC81786B44949ABB071FFEE;
-			remoteInfo = osgdb_deprecated_osgshadow;
-		};
 		0DDFC65BD03E404B917DCC36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -1974,13 +1965,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 476CDBEADC1E48A88C6A0789;
 			remoteInfo = OpenThreads;
-		};
-		10AE9747E8854418819D4494 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1662577E6AEF436B9AF3B132;
-			remoteInfo = osgTerrain;
 		};
 		10C96E89709F43DBBD8E22D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2528,13 +2512,6 @@
 			remoteGlobalIDString = B47FCEDDF2444C44AE9482BF;
 			remoteInfo = osgUtil;
 		};
-		2512077DE5F0458F88D66672 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5DCFE7B6B8E841D8B10B3A27;
-			remoteInfo = osgdb_osg;
-		};
 		258133AD00A448F8ADE9B02D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -2577,13 +2554,6 @@
 			remoteGlobalIDString = C1533558830C4C248C0D1393;
 			remoteInfo = osgText;
 		};
-		2710763C826144E6AE8A5D9F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8766CE093555477B97A92C59;
-			remoteInfo = osgdb_ive;
-		};
 		27172D1D4DF64025833B8752 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -2597,13 +2567,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D645F43B2E87461397222870;
 			remoteInfo = ZERO_CHECK;
-		};
-		2795D0F741764DB18EA3A22E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 350FB76446C24FC8A8CC9A6C;
-			remoteInfo = osgdb_deprecated_osgparticle;
 		};
 		2844ADD18193477896A2CD8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -3032,13 +2995,6 @@
 			remoteGlobalIDString = D645F43B2E87461397222870;
 			remoteInfo = ZERO_CHECK;
 		};
-		3A4FE79F087D427E89326B17 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A2F1AFA51E2846A28D8FE637;
-			remoteInfo = osgdb_serializers_osgterrain;
-		};
 		3A879ADA93774735BE50FEE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -3123,13 +3079,6 @@
 			remoteGlobalIDString = 476CDBEADC1E48A88C6A0789;
 			remoteInfo = OpenThreads;
 		};
-		3E36B45F4EA1430489BCB2AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A72ED3FC3ED402EB3F5914F;
-			remoteInfo = osgGA;
-		};
 		3E3C03A1BE0A448899051776 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -3143,20 +3092,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 29458C2C83724C71A04CF8C6;
 			remoteInfo = osgPresentation;
-		};
-		3E684D29D804452CBA0B1B46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C1533558830C4C248C0D1393;
-			remoteInfo = osgText;
-		};
-		3EC60988CA63411FB95FFCCA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9715B3EB08384213A6D529D1;
-			remoteInfo = osgdb_rgb;
 		};
 		3ED9A2FAF3B64B239A093668 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -3192,13 +3127,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = A45B0C40ADB547B6AA899308;
 			remoteInfo = osgdb_avfoundation;
-		};
-		4000969F7AF0499BBA642BD0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CAEC9726E2064F6C8EE122A9;
-			remoteInfo = osgdb_deprecated_osganimation;
 		};
 		40050BD261124C6C8BCEFCDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -3368,13 +3296,6 @@
 			remoteGlobalIDString = 5BC81786B44949ABB071FFEE;
 			remoteInfo = osgdb_deprecated_osgshadow;
 		};
-		48467CCC75C4491EB79213C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD270B9C57F244E5A04FD9E2;
-			remoteInfo = osgdb_serializers_osg;
-		};
 		486C6037BE254FD3B1258E47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -3479,13 +3400,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 476CDBEADC1E48A88C6A0789;
 			remoteInfo = OpenThreads;
-		};
-		4C7FE2B77ADA4C58BE028951 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 02F8B51821D942D48F73F5CC;
-			remoteInfo = osgdb_serializers_osgshadow;
 		};
 		4CAD9ADCEC8A4B9D87EF0712 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -3655,13 +3569,6 @@
 			remoteGlobalIDString = 832DEF71DED042AA89602AA6;
 			remoteInfo = osgDB;
 		};
-		55D7F8A71EDE4914AEBF1C73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D4B6A7D33DA54D8580D88D1A;
-			remoteInfo = osgdb_serializers_osgsim;
-		};
 		55DAD0152E524FDD895246D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -3689,13 +3596,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = C3BC2A8106F2440AA809337B;
 			remoteInfo = osg;
-		};
-		57020ACC8F624F89895F8541 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B47FCEDDF2444C44AE9482BF;
-			remoteInfo = osgUtil;
 		};
 		5708DC3DEA054DE28472A783 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -3879,13 +3779,6 @@
 			remoteGlobalIDString = 832DEF71DED042AA89602AA6;
 			remoteInfo = osgDB;
 		};
-		5E99DB3D94ED41AB92C26C1D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78B2CAEA1B754574BB6AA529;
-			remoteInfo = osgVolume;
-		};
 		5ECA7DCB8BEE476E8BB48BF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -3920,13 +3813,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = B75AD52273924077A83D27C8;
 			remoteInfo = osgdb_cfg;
-		};
-		5F61C25DF9E84E0FAACB3356 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA63D936D43544BE98030A4D;
-			remoteInfo = osgdb_deprecated_osgwidget;
 		};
 		5F6D8C95FAB346D98AEE4C6F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -4033,13 +3919,6 @@
 			remoteGlobalIDString = B47FCEDDF2444C44AE9482BF;
 			remoteInfo = osgUtil;
 		};
-		627D86D577D0446A8AC2B0EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B405118E13174327BB55478B;
-			remoteInfo = osgWidget;
-		};
 		62BB22966B174394B21E93EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -4060,13 +3939,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0E06E95E2DD44DC78F8FFF79;
 			remoteInfo = osgdb_glsl;
-		};
-		63067D0C6B4C4D77BF2A3751 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D4E339490354DD79DC5FD18;
-			remoteInfo = osgdb_deprecated_osgterrain;
 		};
 		632389C3DA8048C4B53BF720 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -4242,13 +4114,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D645F43B2E87461397222870;
 			remoteInfo = ZERO_CHECK;
-		};
-		6AA07975ABA14C988BA3D957 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 37F85B44203E4B05B9C19440;
-			remoteInfo = osgdb_deprecated_osgtext;
 		};
 		6AA168D2D4E34CA4A1C1AD64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -4635,26 +4500,12 @@
 			remoteGlobalIDString = 8348C47B03AB47F3AAC44696;
 			remoteInfo = osgFX;
 		};
-		7854BD1FAB1D4B01920A156A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DFEAFA4F232B4ED69BB06E8A;
-			remoteInfo = osgdb_serializers_osgfx;
-		};
 		7909D9A506204AC8B091882F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B47FCEDDF2444C44AE9482BF;
 			remoteInfo = osgUtil;
-		};
-		79100333193E458A8C38C956 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE28A7063F9D42A980EA4E70;
-			remoteInfo = example_osgstaticviewer;
 		};
 		7952B310FA0E4510BB100C3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -4690,13 +4541,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = B47FCEDDF2444C44AE9482BF;
 			remoteInfo = osgUtil;
-		};
-		7AA2B60001B44F2FA9F260F4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A785C686C19F4E428408582F;
-			remoteInfo = osgManipulator;
 		};
 		7AC781D1D54E49868F8608B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -5111,13 +4955,6 @@
 			remoteGlobalIDString = 33533AF120D740E88BB3ADB2;
 			remoteInfo = osgdb_deprecated_osgfx;
 		};
-		8D28D06B56FC4D8DAA3FE09F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D2F87DA31E248EF83F69BBE;
-			remoteInfo = osgdb_serializers_osganimation;
-		};
 		8DBCA627DE4A43F09A72E321 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -5131,13 +4968,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5D52D23BCD4B42019DC477B3;
 			remoteInfo = osgUI;
-		};
-		8E2FB754315C469D9091E359 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0FCD7BE3F67F4702839B7536;
-			remoteInfo = osgdb_deprecated_osg;
 		};
 		8E44965362A540298A14CA4C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -5223,13 +5053,6 @@
 			remoteGlobalIDString = 476CDBEADC1E48A88C6A0789;
 			remoteInfo = OpenThreads;
 		};
-		93A1A4CC63E943B890E2A152 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2F153A741802453493319B94;
-			remoteInfo = osgShadow;
-		};
 		93B9A6C2B50D450F80BE68EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -5286,13 +5109,6 @@
 			remoteGlobalIDString = B47FCEDDF2444C44AE9482BF;
 			remoteInfo = osgUtil;
 		};
-		970C5615A9AF4399ACB28847 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A32705A6BC95470885C3BB2A;
-			remoteInfo = osgViewer;
-		};
 		975689BE0927475197E54CB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -5313,13 +5129,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 72D904BEAF1F4DB2AA72129B;
 			remoteInfo = osgParticle;
-		};
-		980FF8CBDB1C49079D093327 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3BC2A8106F2440AA809337B;
-			remoteInfo = osg;
 		};
 		9821C47E6D4A42B9AB7ABAFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -5503,13 +5312,6 @@
 			remoteGlobalIDString = 476CDBEADC1E48A88C6A0789;
 			remoteInfo = OpenThreads;
 		};
-		A1F93D042CFC4F889AB03AE1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 832DEF71DED042AA89602AA6;
-			remoteInfo = osgDB;
-		};
 		A2076EB4CE964D049513B757 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -5607,13 +5409,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = C3BC2A8106F2440AA809337B;
 			remoteInfo = osg;
-		};
-		A64ED1E0011B4FD0A53C2F42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2ED1F469AD034A908493A612;
-			remoteInfo = osgdb_deprecated_osgviewer;
 		};
 		A6707016D3AD414EAF117DEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -5741,13 +5536,6 @@
 			remoteGlobalIDString = D645F43B2E87461397222870;
 			remoteInfo = ZERO_CHECK;
 		};
-		ABB4A3A93D26460998572F21 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 22DA3886ECCD4C2DA011FDE4;
-			remoteInfo = osgdb_deprecated_osgsim;
-		};
 		AC30EFD73AAE48C7B4EEF69B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -5867,13 +5655,6 @@
 			remoteGlobalIDString = C1533558830C4C248C0D1393;
 			remoteInfo = osgText;
 		};
-		B1289F6D7F5D4C42B8F63940 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D645F43B2E87461397222870;
-			remoteInfo = ZERO_CHECK;
-		};
 		B16130756E764EE8AD6D8133 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -5887,13 +5668,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D645F43B2E87461397222870;
 			remoteInfo = ZERO_CHECK;
-		};
-		B2C886C2BCAE433191196C41 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F1AB1F5E388449059AACE237;
-			remoteInfo = osgAnimation;
 		};
 		B3FE6FC87383471286C3532C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -5978,13 +5752,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = B47FCEDDF2444C44AE9482BF;
 			remoteInfo = osgUtil;
-		};
-		B93C2BB2EC1E4D0486A58018 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C86B7F0734BC460B901CABAA;
-			remoteInfo = osgdb_freetype;
 		};
 		B973211BC3C542D2B3C252C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -6238,13 +6005,6 @@
 			remoteGlobalIDString = 832DEF71DED042AA89602AA6;
 			remoteInfo = osgDB;
 		};
-		C49B7D67754B41E6A058BBBB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 956706E8480F426490109095;
-			remoteInfo = osgdb_serializers_osgmanipulator;
-		};
 		C4AF9F1BBD314DCD85682130 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -6329,13 +6089,6 @@
 			remoteGlobalIDString = B552908EAF6F4F1EA3CCDA1B;
 			remoteInfo = osgdb_imageio;
 		};
-		C82545652B7D424C9C51A5E3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8348C47B03AB47F3AAC44696;
-			remoteInfo = osgFX;
-		};
 		C86DE6411F1942C9A7BE41D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -6371,13 +6124,6 @@
 			remoteGlobalIDString = C1533558830C4C248C0D1393;
 			remoteInfo = osgText;
 		};
-		C960769460C8484DB4C83180 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 33533AF120D740E88BB3ADB2;
-			remoteInfo = osgdb_deprecated_osgfx;
-		};
 		C962935D33B244C1857E0E00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -6412,20 +6158,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 832DEF71DED042AA89602AA6;
 			remoteInfo = osgDB;
-		};
-		CA43D84463BF46CB8EB6F74E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A402D918519E4FDB88E0800D;
-			remoteInfo = osgdb_serializers_osgtext;
-		};
-		CA64ADA65EDC420DB0C35D69 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA80635465A946ED8B961179;
-			remoteInfo = osgSim;
 		};
 		CA8EE16260574B739E2DA8A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -6729,13 +6461,6 @@
 			remoteInfo = osgUtil;
 		};
 		D96543ADB29D4655AE315CBF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 72D904BEAF1F4DB2AA72129B;
-			remoteInfo = osgParticle;
-		};
-		DA77FB777B8F469DB3312ACE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
 			proxyType = 1;
@@ -7106,13 +6831,6 @@
 			remoteGlobalIDString = B47FCEDDF2444C44AE9482BF;
 			remoteInfo = osgUtil;
 		};
-		EE0E5FD474CE4E98ADA4577B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A042BE3497E4025BAC49E5D;
-			remoteInfo = osgdb_serializers_osgvolume;
-		};
 		EE22542572FB497884391129 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -7204,13 +6922,6 @@
 			remoteGlobalIDString = 6A042BE3497E4025BAC49E5D;
 			remoteInfo = osgdb_serializers_osgvolume;
 		};
-		F13B01CDD4954B6FBC8CB1B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A02817B2C58F4B1FA55A1C42;
-			remoteInfo = osgdb_deprecated_osgvolume;
-		};
 		F19F1CD1C8984126B10FAC5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -7252,13 +6963,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = A32705A6BC95470885C3BB2A;
 			remoteInfo = osgViewer;
-		};
-		F45A83A002E1447EA0893F1C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 476CDBEADC1E48A88C6A0789;
-			remoteInfo = OpenThreads;
 		};
 		F482DF4B02F04791B8060033 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -7337,13 +7041,6 @@
 			remoteGlobalIDString = 7A72ED3FC3ED402EB3F5914F;
 			remoteInfo = osgGA;
 		};
-		FA491306E34E48CCB519B26D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 87C73B7C0F1740AF96E96F05;
-			remoteInfo = osgdb_openflight;
-		};
 		FA75F7E58EEF46FCB1A7B498 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
@@ -7357,13 +7054,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = C3BC2A8106F2440AA809337B;
 			remoteInfo = osg;
-		};
-		FAFF1FDFA2E74AD9BDE9F3F4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC609AE5B3BD4408920BF382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A10DAB1088FD44219ACFC82A;
-			remoteInfo = osgdb_serializers_osgparticle;
 		};
 		FB0ABEE25394494486597020 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -8303,7 +7993,6 @@
 		4ECCA8AD2D3D4A859826C2C8 /* ScriptEngine */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = ScriptEngine; path = include/osgWidget/ScriptEngine; sourceTree = SOURCE_ROOT; };
 		4ED0825494034DA7A4B143A1 /* DrawPixels.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DrawPixels.cpp; path = src/osg/DrawPixels.cpp; sourceTree = SOURCE_ROOT; };
 		4ED924144B5C491E8C302C55 /* Point.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Point.cpp; path = src/osgWrappers/serializers/osg/Point.cpp; sourceTree = SOURCE_ROOT; };
-		4EF4315C1D684307984061F0 /* osgstaticviewerd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = osgstaticviewerd; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0FA55E2567413BBE8327B3 /* Layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Layer.cpp; path = "src/osgWrappers/deprecated-dotosg/osgVolume/Layer.cpp"; sourceTree = SOURCE_ROOT; };
 		4F156240AB974FD0BEB7C270 /* Switch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Switch.cpp; path = src/osgWrappers/serializers/osg/Switch.cpp; sourceTree = SOURCE_ROOT; };
 		4F1BA8C7F0DA4FE085E6D32E /* Channel */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = Channel; path = include/osgAnimation/Channel; sourceTree = SOURCE_ROOT; };
@@ -11806,7 +11495,6 @@
 				F08AA7B5967F401D91E8173A /* libosgdb_deprecated_osgterraind.a */,
 				D0FE83B839464CA2B53D401D /* libosgdb_deprecated_osgvolumed.a */,
 				AAAF9B75CF2A4D7690A3487D /* libosgdb_deprecated_osgwidgetd.a */,
-				4EF4315C1D684307984061F0 /* osgstaticviewerd */,
 				68C8FF317DB9462B9DE47B8F /* osgViewerIPhoned */,
 			);
 			name = Products;
@@ -16913,64 +16601,6 @@
 			productReference = 5DA25CB594034618A62AB241 /* libosgdb_3dcd.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		CE28A7063F9D42A980EA4E70 /* example_osgstaticviewer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE33E90F10024016B1ACF796 /* Build configuration list for PBXNativeTarget "example_osgstaticviewer" */;
-			buildPhases = (
-				A1FAD2524AC34728B975EA42 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				09CBCFC71A2946B2AFDC31DC /* PBXTargetDependency */,
-				C7B2573EBAD4465BAF555BD4 /* PBXTargetDependency */,
-				06DAED03604B455C8F41E55F /* PBXTargetDependency */,
-				1FF803259BCC4EC282114B72 /* PBXTargetDependency */,
-				B1654944AD464AE1B81BBAFD /* PBXTargetDependency */,
-				1AB7CF337A6D486CAD3C58FD /* PBXTargetDependency */,
-				0501D18FB8BB444A8BE4835C /* PBXTargetDependency */,
-				136BCB0BE8CE40A58B2A855C /* PBXTargetDependency */,
-				B7613F264B0F48A08B253CB4 /* PBXTargetDependency */,
-				79662C7BA2FF4910A08D8706 /* PBXTargetDependency */,
-				DDBA59BB61FC40DF8A09319E /* PBXTargetDependency */,
-				3EDF4E2489DA4667B363744F /* PBXTargetDependency */,
-				5C4F727E6EAD429282A5E619 /* PBXTargetDependency */,
-				839C7462E6174D59A8D15F80 /* PBXTargetDependency */,
-				6869FC8AC6A543648726B367 /* PBXTargetDependency */,
-				6D46695573CA434DBB825328 /* PBXTargetDependency */,
-				ED29856DC3E645828504564D /* PBXTargetDependency */,
-				20718D39AA9A43DB9B4318EB /* PBXTargetDependency */,
-				EF5A88FC1FC64B8F83C2AF97 /* PBXTargetDependency */,
-				FA1556AEE63E44F985944033 /* PBXTargetDependency */,
-				31D96487DEF94C79BBD6EC25 /* PBXTargetDependency */,
-				5A489C3B13F54262BAEC6641 /* PBXTargetDependency */,
-				C4C43C86E10A446398C92D75 /* PBXTargetDependency */,
-				C5A020223C964F3A856C2277 /* PBXTargetDependency */,
-				C57680E9F03246B29620D39C /* PBXTargetDependency */,
-				9D9E3542A2BE4784ADAB11B3 /* PBXTargetDependency */,
-				71016753FFED4A669D57C829 /* PBXTargetDependency */,
-				756A59FBF11D47A5B5046276 /* PBXTargetDependency */,
-				C2C867305ED64A1DA8B330F0 /* PBXTargetDependency */,
-				1AE2D33F09DF4AF3BEAF3657 /* PBXTargetDependency */,
-				51FB71EFFC964925958E75C9 /* PBXTargetDependency */,
-				EACE546267C74962AB1DB57B /* PBXTargetDependency */,
-				1426B61AF2E548A58E6F842A /* PBXTargetDependency */,
-				8B5CA89AB9E74D4BA98B9585 /* PBXTargetDependency */,
-				F5E0C039B4D849BC87CA79F6 /* PBXTargetDependency */,
-				DF6241BF70394D5CBC32F1CB /* PBXTargetDependency */,
-				1D58291FD1464CDA805D45D2 /* PBXTargetDependency */,
-				932FE8A6304B4137ACC74090 /* PBXTargetDependency */,
-				92BA55F4051B43DFA08F2AC6 /* PBXTargetDependency */,
-				EF272C33FC1A44339D694A7D /* PBXTargetDependency */,
-				6BEB9A7CE7C64A76A85DB998 /* PBXTargetDependency */,
-				1B977606065C4067A42BA6C1 /* PBXTargetDependency */,
-				FEFEDC44BB134C94A013DF5C /* PBXTargetDependency */,
-			);
-			name = example_osgstaticviewer;
-			productName = example_osgstaticviewer;
-			productReference = 4EF4315C1D684307984061F0 /* osgstaticviewerd */;
-			productType = "com.apple.product-type.tool";
-		};
 		D31DD5B829364377A8FDDF0A /* osgdb_logo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E3D19BFF84F435690B6CF7E /* Build configuration list for PBXNativeTarget "osgdb_logo" */;
@@ -17498,7 +17128,6 @@
 				0D4E339490354DD79DC5FD18 /* osgdb_deprecated_osgterrain */,
 				A02817B2C58F4B1FA55A1C42 /* osgdb_deprecated_osgvolume */,
 				DA63D936D43544BE98030A4D /* osgdb_deprecated_osgwidget */,
-				CE28A7063F9D42A980EA4E70 /* example_osgstaticviewer */,
 				8556613F5A6043BB89A4083B /* example_osgViewerIPhone */,
 			);
 		};
@@ -19148,14 +18777,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1FAD2524AC34728B975EA42 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A0016DC262B44324B9DA27F4 /* osgstaticviewer.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A35630FF613D4FF2B63F59CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -19870,11 +19491,6 @@
 			target = 476CDBEADC1E48A88C6A0789 /* OpenThreads */;
 			targetProxy = 6FB3FC47A8504103A491B6DB /* PBXContainerItemProxy */;
 		};
-		0501D18FB8BB444A8BE4835C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A32705A6BC95470885C3BB2A /* osgViewer */;
-			targetProxy = 970C5615A9AF4399ACB28847 /* PBXContainerItemProxy */;
-		};
 		0558FB959CA340F0B5CE448C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 832DEF71DED042AA89602AA6 /* osgDB */;
@@ -19904,11 +19520,6 @@
 			isa = PBXTargetDependency;
 			target = 37F85B44203E4B05B9C19440 /* osgdb_deprecated_osgtext */;
 			targetProxy = 7DCE92C1CCF8460B94967CCC /* PBXContainerItemProxy */;
-		};
-		06DAED03604B455C8F41E55F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C1533558830C4C248C0D1393 /* osgText */;
-			targetProxy = 3E684D29D804452CBA0B1B46 /* PBXContainerItemProxy */;
 		};
 		06DBACD0A41D43EBA6199096 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -19984,11 +19595,6 @@
 			isa = PBXTargetDependency;
 			target = 33A32E3F1D2B413D835AEEE3 /* osgdb_trk */;
 			targetProxy = D2A0639043C14C7F96F63F03 /* PBXContainerItemProxy */;
-		};
-		09CBCFC71A2946B2AFDC31DC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B47FCEDDF2444C44AE9482BF /* osgUtil */;
-			targetProxy = 57020ACC8F624F89895F8541 /* PBXContainerItemProxy */;
 		};
 		09D74C41D80D453986756C82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -20140,11 +19746,6 @@
 			target = 9682019D7EE743EBB2796931 /* osgdb_zeroconf */;
 			targetProxy = C2DFAD0E4C504C8AB951CF08 /* PBXContainerItemProxy */;
 		};
-		136BCB0BE8CE40A58B2A855C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F1AB1F5E388449059AACE237 /* osgAnimation */;
-			targetProxy = B2C886C2BCAE433191196C41 /* PBXContainerItemProxy */;
-		};
 		136F355C4DC640209C7CBA95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 832DEF71DED042AA89602AA6 /* osgDB */;
@@ -20154,11 +19755,6 @@
 			isa = PBXTargetDependency;
 			target = 832DEF71DED042AA89602AA6 /* osgDB */;
 			targetProxy = 45038B5D22F04412AED28422 /* PBXContainerItemProxy */;
-		};
-		1426B61AF2E548A58E6F842A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 350FB76446C24FC8A8CC9A6C /* osgdb_deprecated_osgparticle */;
-			targetProxy = 2795D0F741764DB18EA3A22E /* PBXContainerItemProxy */;
 		};
 		14AB5A6C10EA4174A14B6601 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -20260,25 +19856,10 @@
 			target = 476CDBEADC1E48A88C6A0789 /* OpenThreads */;
 			targetProxy = 162DD3D4D5E2420896D065D2 /* PBXContainerItemProxy */;
 		};
-		1AB7CF337A6D486CAD3C58FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 832DEF71DED042AA89602AA6 /* osgDB */;
-			targetProxy = A1F93D042CFC4F889AB03AE1 /* PBXContainerItemProxy */;
-		};
-		1AE2D33F09DF4AF3BEAF3657 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 87C73B7C0F1740AF96E96F05 /* osgdb_openflight */;
-			targetProxy = FA491306E34E48CCB519B26D /* PBXContainerItemProxy */;
-		};
 		1AFD38C1E0244C38B65B761F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7A72ED3FC3ED402EB3F5914F /* osgGA */;
 			targetProxy = 6DDF25AFE08A4B68B1B6068E /* PBXContainerItemProxy */;
-		};
-		1B977606065C4067A42BA6C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DA63D936D43544BE98030A4D /* osgdb_deprecated_osgwidget */;
-			targetProxy = 5F61C25DF9E84E0FAACB3356 /* PBXContainerItemProxy */;
 		};
 		1BCB8214E2614948A82A5995 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -20299,11 +19880,6 @@
 			isa = PBXTargetDependency;
 			target = A32705A6BC95470885C3BB2A /* osgViewer */;
 			targetProxy = B7998B853BD74C609B0F315E /* PBXContainerItemProxy */;
-		};
-		1D58291FD1464CDA805D45D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 37F85B44203E4B05B9C19440 /* osgdb_deprecated_osgtext */;
-			targetProxy = 6AA07975ABA14C988BA3D957 /* PBXContainerItemProxy */;
 		};
 		1D9DEA9492D84D56B3E74675 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -20335,11 +19911,6 @@
 			target = 5D52D23BCD4B42019DC477B3 /* osgUI */;
 			targetProxy = 1C05B8AFB6124DC29482008E /* PBXContainerItemProxy */;
 		};
-		1FF803259BCC4EC282114B72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 476CDBEADC1E48A88C6A0789 /* OpenThreads */;
-			targetProxy = F45A83A002E1447EA0893F1C /* PBXContainerItemProxy */;
-		};
 		201D0D7723BF407790CD16E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7A72ED3FC3ED402EB3F5914F /* osgGA */;
@@ -20354,11 +19925,6 @@
 			isa = PBXTargetDependency;
 			target = 832DEF71DED042AA89602AA6 /* osgDB */;
 			targetProxy = ED33EAA1A68546B682156949 /* PBXContainerItemProxy */;
-		};
-		20718D39AA9A43DB9B4318EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4D2F87DA31E248EF83F69BBE /* osgdb_serializers_osganimation */;
-			targetProxy = 8D28D06B56FC4D8DAA3FE09F /* PBXContainerItemProxy */;
 		};
 		207B26ADE7A34761991123E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -20630,11 +20196,6 @@
 			target = 08231557A2704A209C6BBAC0 /* osgdb_txf */;
 			targetProxy = 331AF69ECCC94E0CAEA0B987 /* PBXContainerItemProxy */;
 		};
-		31D96487DEF94C79BBD6EC25 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A10DAB1088FD44219ACFC82A /* osgdb_serializers_osgparticle */;
-			targetProxy = FAFF1FDFA2E74AD9BDE9F3F4 /* PBXContainerItemProxy */;
-		};
 		3230BF6A59CD4106A14C4F14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C3BC2A8106F2440AA809337B /* osg */;
@@ -20799,11 +20360,6 @@
 			isa = PBXTargetDependency;
 			target = 476CDBEADC1E48A88C6A0789 /* OpenThreads */;
 			targetProxy = 954FC2263E2041E5813967A4 /* PBXContainerItemProxy */;
-		};
-		3EDF4E2489DA4667B363744F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78B2CAEA1B754574BB6AA529 /* osgVolume */;
-			targetProxy = 5E99DB3D94ED41AB92C26C1D /* PBXContainerItemProxy */;
 		};
 		3EE0994FA1D046DC99E535E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -21095,11 +20651,6 @@
 			target = D645F43B2E87461397222870 /* ZERO_CHECK */;
 			targetProxy = D62F3BE3519745E699783E48 /* PBXContainerItemProxy */;
 		};
-		51FB71EFFC964925958E75C9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C86B7F0734BC460B901CABAA /* osgdb_freetype */;
-			targetProxy = B93C2BB2EC1E4D0486A58018 /* PBXContainerItemProxy */;
-		};
 		521F1A07E445401F97F4D9B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8348C47B03AB47F3AAC44696 /* osgFX */;
@@ -21225,11 +20776,6 @@
 			target = D645F43B2E87461397222870 /* ZERO_CHECK */;
 			targetProxy = CDC0CA67B05947B095BC95AB /* PBXContainerItemProxy */;
 		};
-		5A489C3B13F54262BAEC6641 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D4B6A7D33DA54D8580D88D1A /* osgdb_serializers_osgsim */;
-			targetProxy = 55D7F8A71EDE4914AEBF1C73 /* PBXContainerItemProxy */;
-		};
 		5A55857D7EA64D4ABD8A534F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C3BC2A8106F2440AA809337B /* osg */;
@@ -21254,11 +20800,6 @@
 			isa = PBXTargetDependency;
 			target = D645F43B2E87461397222870 /* ZERO_CHECK */;
 			targetProxy = 9D532E81B7E6448CB0145D56 /* PBXContainerItemProxy */;
-		};
-		5C4F727E6EAD429282A5E619 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2F153A741802453493319B94 /* osgShadow */;
-			targetProxy = 93A1A4CC63E943B890E2A152 /* PBXContainerItemProxy */;
 		};
 		5C68725C14D244858A8294D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -21380,11 +20921,6 @@
 			target = 476CDBEADC1E48A88C6A0789 /* OpenThreads */;
 			targetProxy = F0C64C649BF04FEF9E11D8AD /* PBXContainerItemProxy */;
 		};
-		6869FC8AC6A543648726B367 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1662577E6AEF436B9AF3B132 /* osgTerrain */;
-			targetProxy = 10AE9747E8854418819D4494 /* PBXContainerItemProxy */;
-		};
 		68898FB7F4B14D399AAF2447 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 832DEF71DED042AA89602AA6 /* osgDB */;
@@ -21435,11 +20971,6 @@
 			target = 476CDBEADC1E48A88C6A0789 /* OpenThreads */;
 			targetProxy = 8F594DF2A12E4BFEAD584D5C /* PBXContainerItemProxy */;
 		};
-		6BEB9A7CE7C64A76A85DB998 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A02817B2C58F4B1FA55A1C42 /* osgdb_deprecated_osgvolume */;
-			targetProxy = F13B01CDD4954B6FBC8CB1B3 /* PBXContainerItemProxy */;
-		};
 		6CC53CC644274BF09C1F8602 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C3BC2A8106F2440AA809337B /* osg */;
@@ -21454,11 +20985,6 @@
 			isa = PBXTargetDependency;
 			target = D645F43B2E87461397222870 /* ZERO_CHECK */;
 			targetProxy = 85684A9B4D9E448187B2B532 /* PBXContainerItemProxy */;
-		};
-		6D46695573CA434DBB825328 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B405118E13174327BB55478B /* osgWidget */;
-			targetProxy = 627D86D577D0446A8AC2B0EC /* PBXContainerItemProxy */;
 		};
 		6DBD246C9A7A4C1F8A07CEEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -21540,11 +21066,6 @@
 			target = B47FCEDDF2444C44AE9482BF /* osgUtil */;
 			targetProxy = A1789ED089DB4376883B56C5 /* PBXContainerItemProxy */;
 		};
-		71016753FFED4A669D57C829 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5DCFE7B6B8E841D8B10B3A27 /* osgdb_osg */;
-			targetProxy = 2512077DE5F0458F88D66672 /* PBXContainerItemProxy */;
-		};
 		7116224157794CBCA1860F4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D645F43B2E87461397222870 /* ZERO_CHECK */;
@@ -21625,11 +21146,6 @@
 			target = 476CDBEADC1E48A88C6A0789 /* OpenThreads */;
 			targetProxy = 87A15FF33FF54D3A8418A4B0 /* PBXContainerItemProxy */;
 		};
-		756A59FBF11D47A5B5046276 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8766CE093555477B97A92C59 /* osgdb_ive */;
-			targetProxy = 2710763C826144E6AE8A5D9F /* PBXContainerItemProxy */;
-		};
 		75D8F526266649A382FAE850 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B47FCEDDF2444C44AE9482BF /* osgUtil */;
@@ -21704,11 +21220,6 @@
 			isa = PBXTargetDependency;
 			target = D645F43B2E87461397222870 /* ZERO_CHECK */;
 			targetProxy = D08B8BCA3B954B868353AF4F /* PBXContainerItemProxy */;
-		};
-		79662C7BA2FF4910A08D8706 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A785C686C19F4E428408582F /* osgManipulator */;
-			targetProxy = 7AA2B60001B44F2FA9F260F4 /* PBXContainerItemProxy */;
 		};
 		7978851627FF433BAD531623 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -21845,11 +21356,6 @@
 			target = A32705A6BC95470885C3BB2A /* osgViewer */;
 			targetProxy = 1090EE940DB94DDFBF8ADF56 /* PBXContainerItemProxy */;
 		};
-		839C7462E6174D59A8D15F80 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FA80635465A946ED8B961179 /* osgSim */;
-			targetProxy = CA64ADA65EDC420DB0C35D69 /* PBXContainerItemProxy */;
-		};
 		83B79B885E594FE3B4D3DCB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C3BC2A8106F2440AA809337B /* osg */;
@@ -21964,11 +21470,6 @@
 			isa = PBXTargetDependency;
 			target = 350FB76446C24FC8A8CC9A6C /* osgdb_deprecated_osgparticle */;
 			targetProxy = 405A2064417C460387470A1D /* PBXContainerItemProxy */;
-		};
-		8B5CA89AB9E74D4BA98B9585 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CAEC9726E2064F6C8EE122A9 /* osgdb_deprecated_osganimation */;
-			targetProxy = 4000969F7AF0499BBA642BD0 /* PBXContainerItemProxy */;
 		};
 		8B6CA6C94C654148A79D2A41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -22125,25 +21626,10 @@
 			target = 476CDBEADC1E48A88C6A0789 /* OpenThreads */;
 			targetProxy = 3AC8D490C1BF4ABF87153AD4 /* PBXContainerItemProxy */;
 		};
-		92BA55F4051B43DFA08F2AC6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5BC81786B44949ABB071FFEE /* osgdb_deprecated_osgshadow */;
-			targetProxy = 0D151BCFC8B847F590160EC9 /* PBXContainerItemProxy */;
-		};
 		93017CB98D2B4F149CD02101 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C3BC2A8106F2440AA809337B /* osg */;
 			targetProxy = 400EC419A8324538BE913234 /* PBXContainerItemProxy */;
-		};
-		9327E8D1ECF24DDD87D72F84 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CE28A7063F9D42A980EA4E70 /* example_osgstaticviewer */;
-			targetProxy = 79100333193E458A8C38C956 /* PBXContainerItemProxy */;
-		};
-		932FE8A6304B4137ACC74090 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2ED1F469AD034A908493A612 /* osgdb_deprecated_osgviewer */;
-			targetProxy = A64ED1E0011B4FD0A53C2F42 /* PBXContainerItemProxy */;
 		};
 		937B3232EFA940A084DA2BD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -22329,11 +21815,6 @@
 			isa = PBXTargetDependency;
 			target = C1533558830C4C248C0D1393 /* osgText */;
 			targetProxy = 915966598D704950ABB22548 /* PBXContainerItemProxy */;
-		};
-		9D9E3542A2BE4784ADAB11B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6A042BE3497E4025BAC49E5D /* osgdb_serializers_osgvolume */;
-			targetProxy = EE0E5FD474CE4E98ADA4577B /* PBXContainerItemProxy */;
 		};
 		9EAB1E32FF94463BBC43FCB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -22620,11 +22101,6 @@
 			target = 5BC81786B44949ABB071FFEE /* osgdb_deprecated_osgshadow */;
 			targetProxy = 471D90ACBEC542BD8930EA20 /* PBXContainerItemProxy */;
 		};
-		B1654944AD464AE1B81BBAFD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C3BC2A8106F2440AA809337B /* osg */;
-			targetProxy = 980FF8CBDB1C49079D093327 /* PBXContainerItemProxy */;
-		};
 		B17D7D7A9CDD4B3AA30D3D17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D645F43B2E87461397222870 /* ZERO_CHECK */;
@@ -22759,11 +22235,6 @@
 			isa = PBXTargetDependency;
 			target = C3BC2A8106F2440AA809337B /* osg */;
 			targetProxy = E79069E2CDE64B7E832DED3C /* PBXContainerItemProxy */;
-		};
-		B7613F264B0F48A08B253CB4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8348C47B03AB47F3AAC44696 /* osgFX */;
-			targetProxy = C82545652B7D424C9C51A5E3 /* PBXContainerItemProxy */;
 		};
 		B7A6323BEB3F4E9F966C4288 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -22945,11 +22416,6 @@
 			target = 476CDBEADC1E48A88C6A0789 /* OpenThreads */;
 			targetProxy = A14379B81AD64B8D99D272FB /* PBXContainerItemProxy */;
 		};
-		C2C867305ED64A1DA8B330F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9715B3EB08384213A6D529D1 /* osgdb_rgb */;
-			targetProxy = 3EC60988CA63411FB95FFCCA /* PBXContainerItemProxy */;
-		};
 		C36B62227714411CA7E55832 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C3BC2A8106F2440AA809337B /* osg */;
@@ -22975,11 +22441,6 @@
 			target = C3BC2A8106F2440AA809337B /* osg */;
 			targetProxy = A67A487FDBA94D9E9AE17B55 /* PBXContainerItemProxy */;
 		};
-		C4C43C86E10A446398C92D75 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 02F8B51821D942D48F73F5CC /* osgdb_serializers_osgshadow */;
-			targetProxy = 4C7FE2B77ADA4C58BE028951 /* PBXContainerItemProxy */;
-		};
 		C4DF22D6D8644CCEB8C1AA0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7A72ED3FC3ED402EB3F5914F /* osgGA */;
@@ -22995,20 +22456,10 @@
 			target = 832DEF71DED042AA89602AA6 /* osgDB */;
 			targetProxy = 566233FD140C4D0EB76DC502 /* PBXContainerItemProxy */;
 		};
-		C57680E9F03246B29620D39C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A402D918519E4FDB88E0800D /* osgdb_serializers_osgtext */;
-			targetProxy = CA43D84463BF46CB8EB6F74E /* PBXContainerItemProxy */;
-		};
 		C59297DBD92543ADB6860663 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 476CDBEADC1E48A88C6A0789 /* OpenThreads */;
 			targetProxy = 6D358BC526C144488E519B87 /* PBXContainerItemProxy */;
-		};
-		C5A020223C964F3A856C2277 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A2F1AFA51E2846A28D8FE637 /* osgdb_serializers_osgterrain */;
-			targetProxy = 3A4FE79F087D427E89326B17 /* PBXContainerItemProxy */;
 		};
 		C5A1B5BB710E4C9C95F1D624 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -23034,11 +22485,6 @@
 			isa = PBXTargetDependency;
 			target = C3BC2A8106F2440AA809337B /* osg */;
 			targetProxy = 3587654D4F8F4510B11A1D7C /* PBXContainerItemProxy */;
-		};
-		C7B2573EBAD4465BAF555BD4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7A72ED3FC3ED402EB3F5914F /* osgGA */;
-			targetProxy = 3E36B45F4EA1430489BCB2AB /* PBXContainerItemProxy */;
 		};
 		C7D7237875D945A3A291BACC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -23365,11 +22811,6 @@
 			target = C3BC2A8106F2440AA809337B /* osg */;
 			targetProxy = 55DAD0152E524FDD895246D1 /* PBXContainerItemProxy */;
 		};
-		DDBA59BB61FC40DF8A09319E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 72D904BEAF1F4DB2AA72129B /* osgParticle */;
-			targetProxy = DA77FB777B8F469DB3312ACE /* PBXContainerItemProxy */;
-		};
 		DDF0166AD3EE456BB0CD8E94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DD270B9C57F244E5A04FD9E2 /* osgdb_serializers_osg */;
@@ -23389,11 +22830,6 @@
 			isa = PBXTargetDependency;
 			target = 7A72ED3FC3ED402EB3F5914F /* osgGA */;
 			targetProxy = 802A55A2D30A4DD88EB785B0 /* PBXContainerItemProxy */;
-		};
-		DF6241BF70394D5CBC32F1CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 22DA3886ECCD4C2DA011FDE4 /* osgdb_deprecated_osgsim */;
-			targetProxy = ABB4A3A93D26460998572F21 /* PBXContainerItemProxy */;
 		};
 		DF91B07C868B4AB181AF2D33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -23590,11 +23026,6 @@
 			target = D645F43B2E87461397222870 /* ZERO_CHECK */;
 			targetProxy = 6EEFA721B0584F96A28179BE /* PBXContainerItemProxy */;
 		};
-		EACE546267C74962AB1DB57B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0FCD7BE3F67F4702839B7536 /* osgdb_deprecated_osg */;
-			targetProxy = 8E2FB754315C469D9091E359 /* PBXContainerItemProxy */;
-		};
 		EB1B13100586482295AD8175 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D645F43B2E87461397222870 /* ZERO_CHECK */;
@@ -23640,11 +23071,6 @@
 			target = B47FCEDDF2444C44AE9482BF /* osgUtil */;
 			targetProxy = 6A7A08F1CBDF4A578E5C82E3 /* PBXContainerItemProxy */;
 		};
-		ED29856DC3E645828504564D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DD270B9C57F244E5A04FD9E2 /* osgdb_serializers_osg */;
-			targetProxy = 48467CCC75C4491EB79213C7 /* PBXContainerItemProxy */;
-		};
 		ED3FB3B94AF848FE850739E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B47FCEDDF2444C44AE9482BF /* osgUtil */;
@@ -23664,16 +23090,6 @@
 			isa = PBXTargetDependency;
 			target = C3BC2A8106F2440AA809337B /* osg */;
 			targetProxy = FB0ABEE25394494486597020 /* PBXContainerItemProxy */;
-		};
-		EF272C33FC1A44339D694A7D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0D4E339490354DD79DC5FD18 /* osgdb_deprecated_osgterrain */;
-			targetProxy = 63067D0C6B4C4D77BF2A3751 /* PBXContainerItemProxy */;
-		};
-		EF5A88FC1FC64B8F83C2AF97 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DFEAFA4F232B4ED69BB06E8A /* osgdb_serializers_osgfx */;
-			targetProxy = 7854BD1FAB1D4B01920A156A /* PBXContainerItemProxy */;
 		};
 		EF835169D1ED4827B61701D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -23765,11 +23181,6 @@
 			target = 476CDBEADC1E48A88C6A0789 /* OpenThreads */;
 			targetProxy = 98231C0DD3444230BE8BA16F /* PBXContainerItemProxy */;
 		};
-		F5E0C039B4D849BC87CA79F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 33533AF120D740E88BB3ADB2 /* osgdb_deprecated_osgfx */;
-			targetProxy = C960769460C8484DB4C83180 /* PBXContainerItemProxy */;
-		};
 		F6059530FB4C471E903CE643 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B47FCEDDF2444C44AE9482BF /* osgUtil */;
@@ -23824,11 +23235,6 @@
 			isa = PBXTargetDependency;
 			target = 70B812A23F36477CA8F5DF52 /* osgdb_osgtgz */;
 			targetProxy = 6F7E4CAEDACE41B8A0B33051 /* PBXContainerItemProxy */;
-		};
-		FA1556AEE63E44F985944033 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 956706E8480F426490109095 /* osgdb_serializers_osgmanipulator */;
-			targetProxy = C49B7D67754B41E6A058BBBB /* PBXContainerItemProxy */;
 		};
 		FA230CA70CDE49D2AE94FE01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -23919,11 +23325,6 @@
 			isa = PBXTargetDependency;
 			target = 832DEF71DED042AA89602AA6 /* osgDB */;
 			targetProxy = EF044C3E02634E83A2AD1413 /* PBXContainerItemProxy */;
-		};
-		FEFEDC44BB134C94A013DF5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D645F43B2E87461397222870 /* ZERO_CHECK */;
-			targetProxy = B1289F6D7F5D4C42B8F63940 /* PBXContainerItemProxy */;
 		};
 		FF4BE67B0C104D4785FF6B2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -26042,146 +25443,6 @@
 				);
 			};
 			name = MinSizeRel;
-		};
-		0B9C4ED13D93421998B88F12 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv7,
-					armv7s,
-					arm64,
-				);
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/WorkSpace/osg-ios/OpenSceneGraph/build/bin";
-				ENABLE_BITCODE = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					OSG_LIBRARY_STATIC,
-					USE_FREETYPE,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/include",
-					"/WorkSpace/osg-ios/OpenSceneGraph/include",
-				);
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-Wno-conversion",
-					"-fvisibility-inlines-hidden",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-std=c++11",
-					"-stdlib=libc++",
-					"-Wno-conversion",
-					"-DNDEBUG",
-				);
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libOpenThreads.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosg.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgDB.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgUtil.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgGA.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgViewer.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgText.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_ive.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_openflight.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_osg.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_rgb.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osg.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgparticle.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osganimation.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgfx.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgsim.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgtext.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgviewer.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgshadow.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgterrain.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgvolume.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgwidget.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osg.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgparticle.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgtext.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgterrain.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osganimation.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgfx.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgshadow.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgmanipulator.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgsim.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgvolume.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_freetype.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgWidget.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgParticle.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgTerrain.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgAnimation.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgFX.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgShadow.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgManipulator.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgViewer.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgSim.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgVolume.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgGA.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgText.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgDB.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgUtil.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosg.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libOpenThreads.a",
-					/usr/lib/libm.dylib,
-					/usr/lib/libdl.dylib,
-					"-framework",
-					OpenGL,
-					"-framework",
-					OpenGLES,
-					"/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/freetype-ios-universal/lib/libFreetype2.a",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = osgstaticviewer;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/WorkSpace/osg-ios/OpenSceneGraph/build/examples/osgstaticviewer";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "";
-			};
-			name = Release;
 		};
 		0BA3E90EB416490899A32B28 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -50392,146 +49653,6 @@
 			};
 			name = RelWithDebInfo;
 		};
-		C2FE77C0824A476087D27652 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv7,
-					armv7s,
-					arm64,
-				);
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/WorkSpace/osg-ios/OpenSceneGraph/build/bin";
-				ENABLE_BITCODE = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					OSG_LIBRARY_STATIC,
-					USE_FREETYPE,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/include",
-					"/WorkSpace/osg-ios/OpenSceneGraph/include",
-				);
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-Wno-conversion",
-					"-fvisibility-inlines-hidden",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-std=c++11",
-					"-stdlib=libc++",
-					"-Wno-conversion",
-					"-D_DEBUG",
-				);
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libOpenThreadsd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgDBd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgUtild.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgGAd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgViewerd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgTextd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_ived.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_openflightd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_osgd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_rgbd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgparticled.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osganimationd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgfxd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgsimd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgtextd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgviewerd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgshadowd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgterraind.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgvolumed.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgwidgetd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgparticled.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgtextd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgterraind.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osganimationd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgfxd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgshadowd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgmanipulatord.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgsimd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgvolumed.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_freetyped.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgWidgetd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgParticled.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgTerraind.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgAnimationd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgFXd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgShadowd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgManipulatord.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgViewerd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgSimd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgVolumed.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgGAd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgTextd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgDBd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgUtild.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libOpenThreadsd.a",
-					/usr/lib/libm.dylib,
-					/usr/lib/libdl.dylib,
-					"-framework",
-					OpenGL,
-					"-framework",
-					OpenGLES,
-					"/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/freetype-ios-universal/lib/libFreetype2.a",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = osgstaticviewerd;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/WorkSpace/osg-ios/OpenSceneGraph/build/examples/osgstaticviewer";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "";
-			};
-			name = Debug;
-		};
 		C375886AA91446BD9B9039E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -52874,146 +51995,6 @@
 			};
 			name = Debug;
 		};
-		D04C30991A26495FB867F41D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv7,
-					armv7s,
-					arm64,
-				);
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/WorkSpace/osg-ios/OpenSceneGraph/build/bin";
-				ENABLE_BITCODE = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					OSG_LIBRARY_STATIC,
-					USE_FREETYPE,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/include",
-					"/WorkSpace/osg-ios/OpenSceneGraph/include",
-				);
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-Wno-conversion",
-					"-fvisibility-inlines-hidden",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-std=c++11",
-					"-stdlib=libc++",
-					"-Wno-conversion",
-					"-DNDEBUG",
-				);
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libOpenThreadsrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgDBrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgUtilrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgGArd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgViewerrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgTextrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_iverd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_openflightrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_osgrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_rgbrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgparticlerd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osganimationrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgfxrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgsimrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgtextrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgviewerrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgshadowrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgterrainrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgvolumerd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgwidgetrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgparticlerd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgtextrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgterrainrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osganimationrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgfxrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgshadowrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgmanipulatorrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgsimrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgvolumerd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_freetyperd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgWidgetrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgParticlerd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgTerrainrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgAnimationrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgFXrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgShadowrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgManipulatorrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgViewerrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgSimrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgVolumerd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgGArd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgTextrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgDBrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgUtilrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgrd.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libOpenThreadsrd.a",
-					/usr/lib/libm.dylib,
-					/usr/lib/libdl.dylib,
-					"-framework",
-					OpenGL,
-					"-framework",
-					OpenGLES,
-					"/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/freetype-ios-universal/lib/libFreetype2.a",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = osgstaticviewerrd;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/WorkSpace/osg-ios/OpenSceneGraph/build/examples/osgstaticviewer";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "";
-			};
-			name = RelWithDebInfo;
-		};
 		D0B04E2010104D2B870F5E7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -54300,146 +53281,6 @@
 				WARNING_CFLAGS = "";
 			};
 			name = RelWithDebInfo;
-		};
-		D8AB4488480640B6801730C1 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv7,
-					armv7s,
-					arm64,
-				);
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/WorkSpace/osg-ios/OpenSceneGraph/build/bin";
-				ENABLE_BITCODE = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					OSG_LIBRARY_STATIC,
-					USE_FREETYPE,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/include",
-					"/WorkSpace/osg-ios/OpenSceneGraph/include",
-				);
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-Wno-conversion",
-					"-fvisibility-inlines-hidden",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-Wno-conversion",
-					"-pipe",
-					"-no-cpp-precomp",
-					"-std=c++11",
-					"-stdlib=libc++",
-					"-Wno-conversion",
-					"-DNDEBUG",
-				);
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libOpenThreadss.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgs.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgDBs.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgUtils.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgGAs.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgViewers.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgTexts.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_ives.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_openflights.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_osgs.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_rgbs.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgs.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgparticles.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osganimations.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgfxs.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgsims.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgtexts.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgviewers.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgshadows.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgterrains.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgvolumes.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_deprecated_osgwidgets.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgs.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgparticles.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgtexts.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgterrains.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osganimations.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgfxs.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgshadows.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgmanipulators.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgsims.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_serializers_osgvolumes.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgdb_freetypes.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgWidgets.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgParticles.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgTerrains.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgAnimations.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgFXs.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgShadows.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgManipulators.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgViewers.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgSims.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgVolumes.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgGAs.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgTexts.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgDBs.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgUtils.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libosgs.a",
-					"/WorkSpace/osg-ios/OpenSceneGraph/build/lib/libOpenThreadss.a",
-					/usr/lib/libm.dylib,
-					/usr/lib/libdl.dylib,
-					"-framework",
-					OpenGL,
-					"-framework",
-					OpenGLES,
-					"/WorkSpace/osg-ios/OpenSceneGraph/3rdParty/freetype-ios-universal/lib/libFreetype2.a",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = osgstaticviewers;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/WorkSpace/osg-ios/OpenSceneGraph/build/examples/osgstaticviewer";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "";
-			};
-			name = MinSizeRel;
 		};
 		DA5D52D3D4404CF49A2B18B6 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
@@ -60415,17 +59256,6 @@
 				FD31308CF0C14DB5B8F830D2 /* Release */,
 				72CC030F1AA7498B89AA675C /* MinSizeRel */,
 				893788C220D941C18114E621 /* RelWithDebInfo */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		CE33E90F10024016B1ACF796 /* Build configuration list for PBXNativeTarget "example_osgstaticviewer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2FE77C0824A476087D27652 /* Debug */,
-				0B9C4ED13D93421998B88F12 /* Release */,
-				D8AB4488480640B6801730C1 /* MinSizeRel */,
-				D04C30991A26495FB867F41D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
